@@ -1,0 +1,140 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2022  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+# Date created = 14:33:20  April 29, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Pipeline_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSEMA5F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY Pipeline
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 22.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:33:20  APRIL 29, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION "22.1std.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name BOARD "DE1-SoC Board"
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH Pipeline_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME ALU_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id ALU_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME ALU_tb -section_id ALU_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME read_ROM_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id read_ROM_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME read_ROM_tb -section_id read_ROM_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME pc_register_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id pc_register_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME pc_register_tb -section_id pc_register_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME Pipeline_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Pipeline_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Pipeline_tb -section_id Pipeline_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME RW_registers_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id RW_registers_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME RW_registers_tb -section_id RW_registers_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME decode_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id decode_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME decode_tb -section_id decode_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME registerBank_M_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id registerBank_M_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME registerBank_M_tb -section_id registerBank_M_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME IF_ID_register_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id IF_ID_register_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME IF_ID_register_tb -section_id IF_ID_register_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME vga_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id vga_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME vga_tb -section_id vga_tb
+set_global_assignment -name EDA_TEST_BENCH_NAME vga_tb_2 -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id vga_tb_2
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME vga_tb_2 -section_id vga_tb_2
+set_global_assignment -name MIF_FILE DataMem.mif
+set_global_assignment -name SYSTEMVERILOG_FILE vga_tb_2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE vga_ram_block.sv
+set_global_assignment -name VERILOG_FILE inst_mem.v
+set_global_assignment -name QIP_FILE inst_mem.qip
+set_global_assignment -name VERILOG_FILE ram1.v
+set_global_assignment -name QIP_FILE ram1.qip
+set_global_assignment -name MIF_FILE ram_data1.mif
+set_global_assignment -name SYSTEMVERILOG_FILE vgaMatrix.sv
+set_global_assignment -name SYSTEMVERILOG_FILE vgaContoller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE vga_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE vga.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pll.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Pipeline.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ALU_tb.sv
+set_global_assignment -name MIF_FILE Instruction_Mem_Data.mif
+set_global_assignment -name SYSTEMVERILOG_FILE read_ROM.sv
+set_global_assignment -name SYSTEMVERILOG_FILE read_ROM_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pc_register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pc_register_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE IF_ID_register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE Pipeline_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE decode.sv
+set_global_assignment -name SYSTEMVERILOG_FILE decode_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE registerBank_M.sv
+set_global_assignment -name SYSTEMVERILOG_FILE registerBank_M_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ID_EXE_register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE IF_ID_register_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RW_registers.sv
+set_global_assignment -name SYSTEMVERILOG_FILE RW_registers_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE EXE_MEM_register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE MEM_WB_register.sv
+set_global_assignment -name QIP_FILE DataMem.qip
+set_global_assignment -name SYSTEMVERILOG_FILE mux2.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux_alu.sv
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_TEST_BENCH_FILE ALU_tb.sv -section_id ALU_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE read_ROM_tb.sv -section_id read_ROM_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE pc_register_tb.sv -section_id pc_register_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE Pipeline_tb.sv -section_id Pipeline_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE RW_registers_tb.sv -section_id RW_registers_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE decode_tb.sv -section_id decode_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE registerBank_M_tb.sv -section_id registerBank_M_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE IF_ID_register_tb.sv -section_id IF_ID_register_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE vga_tb.sv -section_id vga_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE vga_tb_2.sv -section_id vga_tb_2
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
