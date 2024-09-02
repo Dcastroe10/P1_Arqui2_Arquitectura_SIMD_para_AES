@@ -1,0 +1,13 @@
+START:
+SUBS R3, R2, V1
+MIX V2, V3, R2
+
+LSH V1, R3, V2
+
+XOR V1, V5, V4
+
+LDR R5[R4]
+
+STR V4[R2]
+
+B start
