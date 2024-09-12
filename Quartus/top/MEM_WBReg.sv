@@ -33,7 +33,7 @@ module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegW
     initial begin
         innerClk = 0;
         #1;
-        forever begin
+        for (int i=0; i<100; i++) begin
             #8 innerClk = ~innerClk; // emulate the setup & hold time
             #2 innerClk = ~innerClk; // emulate the setup & hold time
         end

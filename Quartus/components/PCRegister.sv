@@ -13,7 +13,7 @@ module PCRegister #(parameter BITS = 64) (clk, rst, writeData, writeEn, read);
     always @(negedge clk, posedge rst) begin
         if (rst) begin
             register <= 0;
-        end else if (writeEn) begin
+        end else if (~writeEn) begin
             register <= writeData;
         end
     end

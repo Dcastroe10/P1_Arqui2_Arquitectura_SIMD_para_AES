@@ -25,7 +25,7 @@ module IF_IDReg(clk, writeEn, IF_PC, IF_Instruction, ID_PC, ID_Instruction);
     initial begin
         innerClk = 0;
         #1;
-        forever begin
+        for (int i=0; i<100; i++) begin
             #8 innerClk = ~innerClk; // emulate the setup & hold time
             #2 innerClk = ~innerClk; // emulate the setup & hold time
         end

@@ -54,7 +54,7 @@ module ID_EXReg(clk, ID_data1, ID_data2, ID_Imm,
     initial begin
         innerClk = 0;
         #1;
-        forever begin
+        for (int i=0; i<100; i++) begin
             #8 innerClk = ~innerClk; // emulate the setup & hold time
             #2 innerClk = ~innerClk; // emulate the setup & hold time
         end

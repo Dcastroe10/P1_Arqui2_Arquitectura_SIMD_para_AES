@@ -37,7 +37,7 @@ module EX_MEMReg(clk, EX_ALUResult, EX_WriteData, EX_rd, EX_RegWrite, EX_MemToRe
     initial begin
         innerClk = 0;
         #1;
-        forever begin
+        for (int i=0; i<100; i++) begin
             #8 innerClk = ~innerClk; // emulate the setup & hold time
             #2 innerClk = ~innerClk; // emulate the setup & hold time
         end
