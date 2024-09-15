@@ -7,18 +7,18 @@ module ID_EXReg(clk, ID_data1, ID_data2, ID_Imm,
                 EX_ALUScr);
 
     input wire clk;
-    input wire [63:0] ID_data1, ID_data2, ID_Imm;
-    input wire [4:0] ID_rd, ID_rs1, ID_rs2;
+    input wire [31:0] ID_data1, ID_data2, ID_Imm;
+    input wire [3:0] ID_rd, ID_rs1, ID_rs2;
     input wire [1:0] ID_ALUControl;
     input wire ID_RegWrite, ID_MemWrite, ID_MemToReg, ID_ALUScr;
-    output reg [63:0] EX_data1, EX_data2, EX_Imm;
-    output reg [4:0] EX_rd, EX_rs1, EX_rs2;
+    output reg [31:0] EX_data1, EX_data2, EX_Imm;
+    output reg [3:0] EX_rd, EX_rs1, EX_rs2;
     output reg [1:0] EX_ALUControl;
     output reg EX_RegWrite, EX_MemWrite, EX_MemToReg, EX_ALUScr;
 
     reg innerClk; // internal clock for emulate the setup & hold time
-    reg [63:0] data1, data2, Imm;
-    reg [4:0] rd, rs1, rs2;
+    reg [31:0] data1, data2, Imm;
+    reg [3:0] rd, rs1, rs2;
     reg [1:0] ALUControl;
     reg RegWrite, MemWrite, MemToReg, ALUScr;
 

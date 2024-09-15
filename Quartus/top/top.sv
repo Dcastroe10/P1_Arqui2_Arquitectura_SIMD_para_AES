@@ -7,29 +7,29 @@ module top(clk, rst);
     reg Branch, CtrBranch;
     wire [11:0] BranchAddr, IF_PC;
     wire PCWrite, IF_IDWrite, Flush;
-    wire [31:0] IF_Instruction;
+    wire [20:0] IF_Instruction;
 
     wire [11:0] ID_PC;
-    wire [31:0] ID_Instruction;
+    wire [20:0] ID_Instruction;
 
-    wire [63:0] ID_data1, ID_data2, ID_Imm;
-    wire [4:0] ID_rd, ID_rs1, ID_rs2;
+    wire [31:0] ID_data1, ID_data2, ID_Imm;
+    wire [3:0] ID_rd, ID_rs1, ID_rs2;
     wire ID_RegWrite, ID_Equal, ID_MemWrite, ID_MemToReg, ID_ALUScr;
     wire [1:0] ID_ALUControl;
 
-    wire [63:0] EX_data1, EX_data2, EX_Imm, EX_ALUResult, EX_WriteData;
-    wire [4:0] EX_rd, EX_rs1, EX_rs2;
+    wire [31:0] EX_data1, EX_data2, EX_Imm, EX_ALUResult, EX_WriteData;
+    wire [3:0] EX_rd, EX_rs1, EX_rs2;
     wire EX_RegWrite, EX_MemWrite, EX_MemToReg, EX_ALUScr;
     wire [1:0] EX_ALUControl;
 
     wire [1:0] SelFwA, SelFwB;
 
-    wire [63:0] MEM_ALUResult, MEM_WriteData, MEM_MemData;
-    wire [4:0] MEM_rd;
+    wire [31:0] MEM_ALUResult, MEM_WriteData, MEM_MemData;
+    wire [3:0] MEM_rd;
     wire MEM_RegWrite, MEM_MemToReg, MEM_MemWrite;
 
-    wire [4:0] WB_rd;
-    wire [63:0] WB_data, WB_MemData, WB_ALUResult;
+    wire [3:0] WB_rd;
+    wire [31:0] WB_data, WB_MemData, WB_ALUResult;
     wire WB_RegWrite, WB_MemToReg;
 
     IFPipe IFPipe(.clk(clk), .rst(rst), .BranchAddr(BranchAddr), .Branch(Branch), .PCWrite(PCWrite), .PC(IF_PC), .Instruction(IF_Instruction));

@@ -1,6 +1,6 @@
 module Register_File (clk, address1, address2, addressw, writeData, writeEn, read1, read2);
-    parameter DEPTH = 32;
-    parameter BITS = 64;
+    parameter DEPTH = 16;
+    parameter BITS = 32;
     input wire [($clog2(DEPTH)-1):0] address1, address2, addressw;
     input wire [BITS-1:0] writeData;
     input wire writeEn, clk;

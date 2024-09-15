@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/simulation/modelsim
 valt_bidir_buf
-Z1 !s110 1726123004
+Z1 !s110 1726383670
 !i10b 1
 !s100 `k9N_NNE[omlCfHHm=PO53
 IZMT]7033;hHkz1N@SR2ng0
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1726123003.000000
+Z7 !s108 1726383670.000000
 Z8 !s107 d:/quartus/quartus/eda/sim_lib/altera_primitives.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_ver|d:/quartus/quartus/eda/sim_lib/altera_primitives.v|
 !i113 1
@@ -618,7 +618,7 @@ R9
 R10
 R11
 UPRIM_GDFF_HIGH
-R1
+Z12 !s110 1726383671
 !i10b 1
 !s100 SScBZ?gdYFgRTOVYmj^Jh2
 IAKR`DDmo;K=>E?;M=zVIW2
@@ -640,7 +640,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@h@i@g@h
 UPRIM_GDFF_HIGH_SCLR_PRIORITY
-R1
+R12
 !i10b 1
 !s100 F63MIm7BDi6=;U3:nVoTc3
 Idg3aLMYdlzjM8Z[54^Enf1
@@ -684,7 +684,7 @@ R10
 R11
 n@p@r@i@m_@g@d@f@f_@l@o@w
 UPRIM_GDFF_LOW_SCLR_PRIORITY
-R1
+R12
 !i10b 1
 !s100 `gUo^mjm:1ILUg``]kfOO1
 IBh^ehzZP=0Gd2XjgD@G0k2

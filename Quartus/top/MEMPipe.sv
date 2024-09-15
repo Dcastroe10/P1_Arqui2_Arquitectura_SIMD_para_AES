@@ -2,11 +2,11 @@
 module MEMPipe(clk, ALUResult, WriteData, MemWrite, MemData);
 
     input wire clk;
-    input wire [63:0] ALUResult, WriteData;
+    input wire [31:0] ALUResult, WriteData;
     input wire MemWrite;
-    output reg [63:0] MemData;
+    output reg [31:0] MemData;
 
-    Memory #(1024, 64) mem(
+    Memory #(1024, 32) mem(
         .clk(clk),
         .address(ALUResult[9:0]),
         .writeData(WriteData),
