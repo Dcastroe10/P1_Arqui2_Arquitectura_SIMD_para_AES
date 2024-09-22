@@ -1,4 +1,4 @@
-module Vectorial_Register_File #(parameter DEPTH = 16, parameter BITS = 128) (
+module Vectorial_Register_File #(parameter DEPTH = 16, parameter BITS = 32) (
     input wire clk,
     input wire [($clog2(DEPTH)-1):0] address1, address2, addressw,
     input wire [BITS-1:0] writeData,

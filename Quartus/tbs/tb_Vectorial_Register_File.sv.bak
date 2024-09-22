@@ -1,8 +1,8 @@
 module tb_Vectorial_Register_File;
 
     // Parámetros del archivo de registros
-    parameter DEPTH = 16;
-    parameter BITS = 32;
+    parameter DEPTH = 32;
+    parameter BITS = 128;
 
     // Señales de prueba
     reg clk;
