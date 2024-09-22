@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/simulation/modelsim
 vlpm_abs
-Z1 !s110 1726383672
+Z1 !s110 1726706103
 !i10b 1
 !s100 O9i<YS?ECZC8XU2m2T>HQ0
 I>ffbkFfCk2VhTUZSg49VC3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1726383671.000000
+Z7 !s108 1726706103.000000
 Z8 !s107 d:/quartus/quartus/eda/sim_lib/220model.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|lpm_ver|d:/quartus/quartus/eda/sim_lib/220model.v|
 !i113 1
@@ -51,7 +51,7 @@ R9
 R10
 R11
 vlpm_and
-Z12 !s110 1726383671
+R1
 !i10b 1
 !s100 =VzM;OhZJQ@Wjl;2UNDFd0
 IVGQTE;SU9[]`YFme8@_Jk0
@@ -93,7 +93,7 @@ R9
 R10
 R11
 vlpm_bustri
-R12
+R1
 !i10b 1
 !s100 J0ek53f5aGEe08O]9M7g41
 IQ<@bYkD7>IE7AR8@FiS;H3
@@ -156,7 +156,7 @@ R9
 R10
 R11
 vlpm_constant
-R12
+R1
 !i10b 1
 !s100 FkMf<gh?_E[^916k78`m>1
 I=5UWcP:JF_584QaD0J]1c3
@@ -219,7 +219,7 @@ R9
 R10
 R11
 vLPM_DEVICE_FAMILIES
-R12
+R1
 !i10b 1
 !s100 Vmk]JQUO8I;QjWc9g7CYA2
 IUjO:Qke9QQP=mMz=X`dKA1
@@ -388,7 +388,7 @@ R9
 R10
 R11
 vLPM_HINT_EVALUATION
-R12
+R1
 !i10b 1
 !s100 `WKMS]SM@JbIe0gCi<3f82
 IECdHE8K1BD6KWP0Tl7n=M2
@@ -431,7 +431,7 @@ R9
 R10
 R11
 vlpm_inv
-R12
+R1
 !i10b 1
 !s100 ^?DV;oC5m>1zlEkCWIQzM1
 Ijg596chDF:;Yf]OAWkPa`0
@@ -473,7 +473,7 @@ R9
 R10
 R11
 vLPM_MEMORY_INITIALIZATION
-R12
+R1
 !i10b 1
 !s100 DR_SV_J4fzH0gTOLESO6;1
 IzI;KMUMLQVD?hcdlCTUh?2
@@ -516,7 +516,7 @@ R9
 R10
 R11
 vlpm_mux
-R12
+R1
 !i10b 1
 !s100 27TaUnFLk_F<gH`najTXL3
 IK8]DAdNR<Nm9RL>8gRMKK1
@@ -537,7 +537,7 @@ R9
 R10
 R11
 vlpm_or
-R12
+R1
 !i10b 1
 !s100 PVk12KKE0fG4m[5a;LJV22
 I9R^Og`JTYh;7^EWzh2bQD2
@@ -684,7 +684,7 @@ R9
 R10
 R11
 vlpm_xor
-R12
+R1
 !i10b 1
 !s100 5BXY01B<ogg>d2@mk^Kmo0
 IW]zzoEEa4c3<2SK]mdMTz3

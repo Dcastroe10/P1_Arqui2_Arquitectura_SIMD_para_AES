@@ -45,6 +45,8 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register_File.sv}
+vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv}
@@ -56,7 +58,6 @@ vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vector
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv}
-vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Shifter.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register_File.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv}
 vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv}

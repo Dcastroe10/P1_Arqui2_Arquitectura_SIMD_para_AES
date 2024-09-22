@@ -1,18 +1,18 @@
-module EX_MEMReg(clk, EX_ALUResult, EX_WriteData, EX_rd, EX_RegWrite, EX_MemToReg, EX_MemWrite
-                    , MEM_ALUResult, MEM_WriteData, MEM_rd, MEM_RegWrite, MEM_MemToReg, MEM_MemWrite);
+module EX_MEMReg(clk, EX_ALUResult, EX_WriteData, EX_rd, EX_RegWrite, EX_MemToReg, EX_MemWrite,EX_VRegWrite,
+                    , MEM_ALUResult, MEM_WriteData, MEM_rd, MEM_RegWrite, MEM_MemToReg, MEM_MemWrite,MEM_VRegWrite);
     
     input wire clk;
     input wire [31:0] EX_ALUResult, EX_WriteData;
-    input wire [3:0] EX_rd;
-    input wire EX_RegWrite, EX_MemToReg, EX_MemWrite;
+    input wire [4:0] EX_rd;
+    input wire EX_RegWrite, EX_MemToReg, EX_MemWrite,EX_VRegWrite;
     output reg [31:0] MEM_ALUResult, MEM_WriteData;
-    output reg [3:0] MEM_rd;
-    output reg MEM_RegWrite, MEM_MemToReg, MEM_MemWrite;
+    output reg [4:0] MEM_rd;
+    output reg MEM_RegWrite, MEM_MemToReg, MEM_MemWrite,MEM_VRegWrite;
 
     reg innerClk; // internal clock for emulate the setup & hold time
     reg [31:0] ALUResult, WriteData;
-    reg [3:0] rd;
-    reg RegWrite, MemToReg, MemWrite;
+    reg [4:0] rd;
+    reg RegWrite, MemToReg, MemWrite,VRegWrite;
 
    
 
@@ -23,6 +23,7 @@ module EX_MEMReg(clk, EX_ALUResult, EX_WriteData, EX_rd, EX_RegWrite, EX_MemToRe
         RegWrite <= EX_RegWrite;
         MemToReg <= EX_MemToReg;
         MemWrite <= EX_MemWrite;
+		  VRegWrite <= EX_VRegWrite;
     end
 
     always_ff @(posedge clk) begin
@@ -32,6 +33,7 @@ module EX_MEMReg(clk, EX_ALUResult, EX_WriteData, EX_rd, EX_RegWrite, EX_MemToRe
         MEM_RegWrite <= RegWrite;
         MEM_MemToReg <= MemToReg;
         MEM_MemWrite <= MemWrite;
+		  MEM_VRegWrite <= MEM_VRegWrite;
     end
 
     initial begin

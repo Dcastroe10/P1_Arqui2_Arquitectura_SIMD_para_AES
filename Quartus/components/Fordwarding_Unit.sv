@@ -1,6 +1,6 @@
 module Fordwarding_Unit(rs1, rs2, MEM_rd, WB_rd, MEM_RegWrite, WB_RegWrite, MemToReg, FwASel, FwBSel);
 
-    input wire [3:0] rs1, rs2, MEM_rd, WB_rd;
+    input wire [4:0] rs1, rs2, MEM_rd, WB_rd;
     input wire MEM_RegWrite, WB_RegWrite, MemToReg;
     output reg [1:0] FwASel, FwBSel;
 
