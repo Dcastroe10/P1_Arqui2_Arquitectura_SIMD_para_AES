@@ -11,7 +11,7 @@ def open_file_dialog():
             lines = file.readlines()
             clear_code = []
             for line in lines:
-                line = line.strip()
+                line = line.split(';')[0].strip()
                 if line:
                     clear_code.append(line)
             
@@ -29,8 +29,8 @@ def open_file_dialog():
                     binary_opcode = get_opcode(opcode)
                     binary_operands = get_operands(operands)
                     binary_instruction = binary_opcode + binary_operands
-                    if len(binary_instruction) < 16:
-                        binary_instruction = binary_instruction.ljust(16, '0')
+                    if len(binary_instruction) < 20:
+                        binary_instruction = binary_instruction.ljust(20, '0')
                 
                     machine_code += str(mem_dir) + ": " + binary_instruction + "\n"
                     mem_dir += 1
@@ -41,29 +41,51 @@ def open_file_dialog():
                     print("Formato de instruccion no valido: ", instruction)
 
             file.close()
+            print("Archivo compilado con éxito")
 
             if not compiler_error:
                 with open(output, 'w') as out:
-                    out.write("WIDTH=8;\nDEPTH=1023;\n\nADDRESS_RADIX=DEC;\nDATA_RADIX=BIN;\n\nCONTENT BEGIN\n")
+                    out.write("WIDTH=20;\nDEPTH=1023;\n\nADDRESS_RADIX=DEC;\nDATA_RADIX=BIN;\n\nCONTENT BEGIN\n")
                     out.write(machine_code + "[" + str(mem_dir) + "..1023]:" + nop + ";\n")
                     out.write("END;")
                     out.close()
                     machine_code = ""
+                print("Archivo con instrucciones en binario creado con exito")
 
 def parse_instruction(instruction, lables):
     # Expresion regular para operaciones aritmeticas
-    arithmetic_regex = r'(\b(?:MIX|SUBS)\b)\s+((?:V|R)\d+),\s*((?:V|R)\d+),\s*((?:V|R)\d+)'
+    arithmetic_regex = r'(\b(?:MIX|SUBS|ADD)\b)\s+((?:V|R)\d+),\s*((?:V|R)\d+),\s*((?:V|R)\d+)'
 
     # Expresion regular para instrucciones de salto
+    # r'\b(MOVR\b)\s+(R\d+),\s+(R\d+|#-?\d+)\b'
+    # r'(\b(?:BEQ|B)\b)\s+([^\s]+)'
+    branch_eq_regex = r'\b(BEQ\b)\s+(R\d+),\s+(R\d+),\s+([^\s]+)\b'
+
+    # Expresion regular para expresion de salto obligatorio
     branch_regex = r'(\b(?:B)\b)\s+([^\s]+)'
 
     # Expresion regular para las operaciones logicas
-    logic_regex = r'(\b(?:LSH|XOR)\b)\s+((?:V|R)\d+),\s*((?:V|R)\d+),\s*((?:V|R)\d+)'
+    xor_regex = r'(\b(?:XOR)\b)\s+((?:V|R)\d+),\s*((?:V|R)\d+),\s*((?:V|R)\d+)'
 
-    # Expresion regular para datos
-    data_regex = r'(\b(?:STR|LDR)\b)\s+((?:V|R)\d+)\[(R\d+)\]'
+    # Expresion regular para logical shift left vectorial
+    lshift_regex = r'(\b(?:LSH)\b)\s+((?:V)\d+),\s*((?:V)\d+)'
+
+    # Expresion regular para datos escalares
+    escalar_data_regex = r'(\b(?:STR|LDR)\b)\s+((?:V|R)\d+)\[(R\d+)\]'
+
+    # Expresion regular para datos vectoriales
+    vectorial_data_regex = r'(\b(?:VSTR|VLDR)\b)\s+((?:V|R)\d+)\[(R\d+)\]'
+
+    # Expresion para mov de registro escalar
+    movr_regex = r'\b(MOVR\b)\s+(R\d+),\s+(R\d+|#-?\d+)\b'
 
     match = re.match(arithmetic_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        return opcode, operands
+    
+    match = re.match(branch_eq_regex, instruction)
     if match:
         opcode = match.group(1)
         operands = match.groups()[1:]
@@ -75,13 +97,19 @@ def parse_instruction(instruction, lables):
         operands = match.groups()[1:]
         return opcode, operands
     
-    match = re.match(logic_regex, instruction)
+    match = re.match(xor_regex, instruction)
     if match:
         opcode = match.group(1)
         operands = match.groups()[1:]
         return opcode, operands
     
-    match = re.match(data_regex, instruction)
+    match = re.match(lshift_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        return opcode, operands
+    
+    match = re.match(escalar_data_regex, instruction)
     if match:
         opcode = match.group(1)
         operands = match.groups()[1:]
@@ -91,6 +119,22 @@ def parse_instruction(instruction, lables):
             operands_1.append(op)
         return opcode, operands_1
     
+    match = re.match(movr_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        return opcode, operands
+    
+    match = re.match(vectorial_data_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        operands_1 = []
+        for op in operands:
+            op = op.replace('[', '').replace(']', '')
+            operands_1.append(op)
+        return opcode, operands_1
+       
     return False
 
 def get_labels():
@@ -111,57 +155,92 @@ def parse_label(instruction):
 
 def get_opcode(opcode):
     if opcode == "MIX":
-        return "1111"
+        return "11111"
     
     if opcode == "SUBS":
-        return "1110"
+        return "11110"
     
     if opcode == "LSH":
-        return "1101"
+        return "11101"
     
     if opcode == "XOR":
-        return "1100"
+        return "11100"
     
     if opcode == "LDR":
-        return "1011"
+        return "11011"
     
     if opcode == "STR":
-        return "1010"
+        return "11010"
     
     if opcode == "B":
-        return "1001"
+        return "11001"
+    
+    if opcode == "MOVR":
+        return "11000"
+    
+    if opcode == "VSTR":
+        return "10111"
+    
+    if opcode == "VLDR":
+        return "10110"
+    
+    if opcode == "ADD":
+        return "10101"
+    
+    if opcode == "BEQ":
+        return "10100"
+    
     global compiler_error
     compiler_error = True
-    return "0000"
+    print("El operador " + opcode + " no existe en el ISA")
+    return "00000"
 
 def get_operands(operands):
+    print(operands)
     if len(operands) == 1:
         for op in operands:
             branch = get_branch(op)
             if branch:
-                return branch
+                return '0'*10 + branch
             else:
                 print("La etiqueta " + op + " no existe")
                 global compiler_error
                 compiler_error = True
-                return 12 * '0'
+                return 5 * '0'
     else:
         binary_operands = ""
+        word = r'[A-Za-z_]*'
         for op in operands:
+            match = re.fullmatch(word, op)
+            if match:
+                branch = get_branch(op)
+                if branch:
+                    binary_operands += branch
+                    break
+                else:
+                    print("La etiqueta " + op + " no existe")
+                    compiler_error = True
+                    binary_operands += 5*'0'
+                    break
             type = ""
             if op.startswith('R'):
                 type = "0"
             else:
                 type = "1"
             
-            bin_op = bin(int(op[1:]))[2:].zfill(3)
-            binary_operands += type + bin_op
+            if op.startswith('#'):
+                bin_op = bin(int(op[1:]))[2:].zfill(10)
+                binary_operands += bin_op
+            else:
+                bin_op = bin(int(op[1:]))[2:].zfill(4)
+                binary_operands += type + bin_op
+            
         return binary_operands
 
 def get_branch(label):
     for i in labels:
         if label == i[0]:
-            binary_branch = format(i[1], '012b')
+            binary_branch = format(i[1], '05b')
             return binary_branch
     return False
 
@@ -171,7 +250,7 @@ root.title("Compilador")
 compiler_error = False
 instructions = []
 labels = []
-nop = 16 * '0'
+nop = 20 * '0'
 
 open_button = tk.Button(root, text="Seleccionar archivo", command=open_file_dialog)
 open_button.pack(padx=10, pady=10)
