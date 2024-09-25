@@ -4,8 +4,8 @@ module Controller(Instruction, ALUControl, RegWrite, MemWrite, Branch, MemToReg,
     input wire [BITS-1:0] Instruction;
 
     //output reg [0:63] Imm;
-    output reg [0:1] ALUControl;
-    output reg RegWrite, MemWrite, Branch, MemToReg,VRegWrite;
+    output reg [0:1] ALUControl,MemToReg;
+    output reg RegWrite, MemWrite, Branch, VRegWrite;
     output reg ALUScr;
 
     Decoder decoder(

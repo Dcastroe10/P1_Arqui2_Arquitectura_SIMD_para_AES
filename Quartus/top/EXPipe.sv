@@ -1,10 +1,10 @@
 
-module EXPipe(data1, data2, Imm, Fw1, Fw2, Fw3, SelFwA, SelFwB, ALUScr, ALUControl, ALUResult, WriteData);
+module EXPipe(data1, data2, Imm, Fw1, Fw2, Fw3, SelFwA, SelFwB, ALUScr, ALUControl, ALUResult, WriteData, ALU_Selector);
 
     input wire [31:0] Imm, Fw1, Fw2, Fw3;
 	 input wire [31:0] data1, data2;
     input wire [1:0] SelFwA, SelFwB;
-    input wire ALUScr;
+    input wire ALUScr,ALU_Selector;
     input wire [1:0] ALUControl;
     output reg [31:0] ALUResult;
     output reg [31:0] WriteData;
@@ -13,6 +13,7 @@ module EXPipe(data1, data2, Imm, Fw1, Fw2, Fw3, SelFwA, SelFwB, ALUScr, ALUContr
     reg [31:0] FwAData [3:0];
     reg [31:0] FwBData [3:0];
     reg [31:0] ScrData [1:0];
+	 reg [31:0] Alu_Data [1:0];
 
     assign FwAData[0] = data1;
     assign FwAData[1] = Fw1;
@@ -31,8 +32,12 @@ module EXPipe(data1, data2, Imm, Fw1, Fw2, Fw3, SelFwA, SelFwB, ALUScr, ALUContr
     assign ScrData[1] = Imm;
 
     Mux #(2, 32) ScrMux(.Data_arr(ScrData), .selector(ALUScr), .Out(ALUIn2));
-    Alu #(32) alu(.SrcA(ALUIn1), .SrcB(ALUIn2), .ALUControl(ALUControl), .ALUResult(ALUResult));
-	 assign ALUResult = {24'b0,ALUResult};
+    Alu #(32) alu(.SrcA(ALUIn1), .SrcB(ALUIn2), .ALUControl(ALUControl), .ALUResult(Alu_Data[0]));
+	 Multi_Alu Multi_ALU(.a(ALUIn1), .b(ALUIn2), .select(ALUControl), .result_alu(Alu_Data[1]));
+	 Mux #(2,32) AlusMux(.Data_arr(Alu_Data), .selector(ALU_Selector), .Out(ALUResult));
+	
+	
+	 //assign ALUResult = {24'b0,ALUResult};
 
     assign WriteData = FwBOut;
 

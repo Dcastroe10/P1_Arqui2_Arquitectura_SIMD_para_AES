@@ -35,7 +35,7 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
         .cin(1'b0));
 
     assign rd = Instruction[14:10];
-    assign rs1 = (Instruction[19:15] == 5'b10111) ? 5'b00000 : Instruction[9:5];
+    assign rs1 = (Instruction[19:15] == 5'b11000) ? 5'b00000 : Instruction[9:5];
     assign rs2 = Instruction[4:0];
 
     Register_File regFile(

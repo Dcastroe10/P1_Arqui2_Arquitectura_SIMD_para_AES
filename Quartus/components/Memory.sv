@@ -7,7 +7,7 @@ module Memory #(parameter DEPTH = 32, BITS = 64) (clk, address, writeData, write
 
     reg [0:BITS-1] registers [0:DEPTH-1];
 
-    always @(posedge clk) begin
+    always_comb begin
         readData <= registers[address];
     end
 
@@ -16,5 +16,8 @@ module Memory #(parameter DEPTH = 32, BITS = 64) (clk, address, writeData, write
             registers[address] <= writeData;
         end 
     end
+	 
+	 initial
+        $readmemh("ram.dat", registers);
  
 endmodule

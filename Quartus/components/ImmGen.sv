@@ -7,7 +7,7 @@ module ImmGen (OpCode, InstructionP1, InstructionP2, Imm);
     
     always_comb begin
         case (OpCode)
-            5'b10111: begin
+            5'b11000: begin
                 Imm = {24'b0, InstructionP2};
             end
 				5'b10010: begin

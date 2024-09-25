@@ -1,0 +1,51 @@
+module tb_s_box;
+
+    // Definir parámetros
+    parameter DEPTH = 32;
+    parameter BITS = 32;
+
+    // Señales de prueba
+    reg [$clog2(DEPTH)-1:0] address1, address2, address3, address4;
+    wire [BITS-1:0] readData;
+
+    // Instanciar el módulo s_box
+    s_box #(DEPTH, BITS) uut (
+        .address1(address1),
+        .address2(address2),
+        .address3(address3),
+        .address4(address4),
+        .readData(readData)
+    );
+
+    // Inicialización
+    initial begin
+        // Cargar los datos desde el archivo .dat
+        $display("Cargando los registros desde el archivo .dat...");
+
+        // Pruebas con diferentes combinaciones de direcciones
+        address1 = 0;
+        address2 = 1;
+        address3 = 2;
+        address4 = 3;
+        #10;
+        $display("Direcciones: %0d %0d %0d %0d, Datos leidos: %h", address1, address2, address3, address4, readData);
+
+        address1 = 4;
+        address2 = 5;
+        address3 = 6;
+        address4 = 7;
+        #10;
+        $display("Direcciones: %0d %0d %0d %0d, Datos leidos: %h", address1, address2, address3, address4, readData);
+
+        address1 = 16;
+        address2 = 20;
+        address3 = 24;
+        address4 = 28;
+        #10;
+        $display("Direcciones: %0d %0d %0d %0d, Datos leidos: %h", address1, address2, address3, address4, readData);
+
+        // Terminar simulación
+        $finish;
+    end
+
+endmodule

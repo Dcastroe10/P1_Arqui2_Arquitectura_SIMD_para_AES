@@ -17,7 +17,7 @@ module Alu #(parameter BITS = 64) (SrcA, SrcB, ALUControl, ALUResult, ALUFlags);
     assign Data_arr_mux2[0] = SrcB;
     assign Data_arr_mux2[1] = ~SrcB;
 
-	Mux #(2,32) mux2(Data_arr_mux2,ALUControl[0],mux2_output);
+	Mux #(2,BITS) mux2(Data_arr_mux2,ALUControl[0],mux2_output);
 
 	Adder sum(SrcA,mux2_output,ALUControl[0],Data_arr_mux4[0],cout);
 
@@ -29,7 +29,7 @@ module Alu #(parameter BITS = 64) (SrcA, SrcB, ALUControl, ALUResult, ALUFlags);
     // assign Data_arr_mux4[2] = A_and_B;
     // assign Data_arr_mux4[3] = A_or_B;
 
-	Mux #(4,32) mux4(Data_arr_mux4, ALUControl, mux4_output);
+	Mux #(4,BITS) mux4(Data_arr_mux4, ALUControl, mux4_output);
 			  
 	assign ALUFlags[3] = ~ALUControl[1] && (mux4_output[BITS-1]||SrcA[BITS-1]) && ~(ALUControl[0]||SrcA[BITS-1]||SrcB[BITS-1]);
 	assign ALUFlags[2] = ~ALUControl[1] && cout;
