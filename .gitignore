@@ -1,0 +1,15 @@
+
+Quartus/components/Adder.sv.bak
+Quartus/components/Alu.sv.bak
+Quartus/components/Hot_Bit.sv.bak
+Quartus/components/InstMemory.sv.bak
+Quartus/components/Nbit_Equal_Comp.sv.bak
+Quartus/components/Register_File.sv.bak
+Quartus/top/Controller.sv.bak
+Quartus/top/Datapath.sv.bak
+Quartus/top/EXPipe.sv.bak
+Quartus/top/IDPipe.sv.bak
+Quartus/top/IFPipe.sv.bak
+Quartus/top/MEMPipe.sv.bak
+Quartus/top/top.sv.bak
+Quartus/top/WBPipe.sv.bak
