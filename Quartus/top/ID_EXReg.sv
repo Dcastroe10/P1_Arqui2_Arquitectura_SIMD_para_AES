@@ -20,7 +20,8 @@ module ID_EXReg(clk, ID_data1, ID_data2, ID_Imm,
     reg [31:0] data1, data2, Imm;
     reg [4:0] rd, rs1, rs2;
     reg [1:0] ALUControl;
-    reg RegWrite, MemWrite, MemToReg, ALUScr,VRegWrite;
+    reg RegWrite, MemWrite,ALUScr,VRegWrite;
+	 reg [1:0] MemToReg;
 
 
     always_ff @(posedge innerClk) begin

@@ -5,7 +5,7 @@ module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegW
     input wire [31:0] MEM_MemData, MEM_ALUResult,MEM_sbox;
     input wire [4:0] MEM_rd;
     input wire MEM_RegWrite,MEM_VRegWrite;
-	 input wire MEM_MemToReg;
+	 input wire [1:0] MEM_MemToReg;
     output reg [31:0] WB_MemData, WB_ALUResult,WB_sbox;
     output reg [4:0] WB_rd;
     output reg WB_RegWrite,WB_VRegWrite;
@@ -14,7 +14,8 @@ module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegW
     reg innerClk; // internal clock for emulate the setup & hold time
     reg [31:0] MemData, ALUResult,sbox;
     reg [4:0] rd;
-    reg MemToReg, RegWrite,VRegWrite;   
+    reg RegWrite,VRegWrite;  
+	 reg [1:0] MemToReg; 
 
     always_ff @(posedge innerClk) begin
         MemData <= MEM_MemData;

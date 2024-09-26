@@ -9,12 +9,13 @@ module EX_MEMReg(clk, EX_ALUResult, EX_WriteData, EX_rd, EX_RegWrite, EX_MemToRe
     output reg [31:0] MEM_ALUResult, MEM_WriteData;
     output reg [4:0] MEM_rd;
     output reg MEM_RegWrite, MEM_MemWrite,MEM_VRegWrite;
-	 output reg MEM_MemToReg;
+	 output reg [1:0] MEM_MemToReg;
 
     reg innerClk; // internal clock for emulate the setup & hold time
     reg [31:0] ALUResult, WriteData;
     reg [4:0] rd;
-    reg RegWrite, MemToReg, MemWrite,VRegWrite;
+    reg RegWrite,MemWrite,VRegWrite;
+	 reg [1:0] MemToReg;
 
    
 

@@ -1,8 +1,8 @@
-module s_box #(parameter DEPTH = 32, BITS = 32) (
-    input wire [$clog2(DEPTH*(BITS/8)):0] address1,
-    input wire [$clog2(DEPTH*(BITS/8)):0] address2,
-    input wire [$clog2(DEPTH*(BITS/8)):0] address3,
-    input wire [$clog2(DEPTH*(BITS/8)):0] address4,
+module s_box #(parameter DEPTH = 64, BITS = 32) (
+    input wire [7:0] address1,
+    input wire [7:0] address2,
+    input wire [7:0] address3,
+    input wire [7:0] address4,
     output reg [BITS-1:0] readData
 );
 
@@ -16,7 +16,7 @@ module s_box #(parameter DEPTH = 32, BITS = 32) (
 
     // Inicialización de la memoria desde un archivo .dat
     initial begin
-        $readmemh("datos_aleatorios_20bits.dat", registers);
+        $readmemh("sbox.dat", registers);
     end
 
 endmodule

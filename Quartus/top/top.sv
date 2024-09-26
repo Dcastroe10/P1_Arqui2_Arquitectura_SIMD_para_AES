@@ -15,19 +15,20 @@ module top(clk, rst);
     wire [31:0] ID_data1, ID_data2; 
 	 wire [31:0] ID_Imm;
     wire [4:0] ID_rd, ID_rs1, ID_rs2;
-    wire ID_RegWrite, ID_Equal, ID_MemWrite, ID_MemToReg, ID_ALUScr, ID_VRegWrite;
-    wire [1:0] ID_ALUControl;
+    wire ID_RegWrite, ID_Equal, ID_MemWrite,ID_ALUScr, ID_VRegWrite;
+    wire [1:0] ID_ALUControl, ID_MemToReg;
 
     wire [31:0] EX_data1, EX_data2, EX_Imm, EX_ALUResult, EX_WriteData;
     wire [4:0] EX_rd, EX_rs1, EX_rs2;
-    wire EX_RegWrite, EX_MemWrite, EX_MemToReg, EX_ALUScr, EX_VRegWrite;
-    wire [1:0] EX_ALUControl;
+    wire EX_RegWrite, EX_MemWrite,EX_ALUScr, EX_VRegWrite;
+    wire [1:0] EX_ALUControl, EX_MemToReg;
 
     wire [1:0] SelFwA, SelFwB;
 
     wire [31:0] MEM_ALUResult, MEM_WriteData, MEM_MemData;
     wire [4:0] MEM_rd;
-    wire MEM_RegWrite, MEM_MemToReg, MEM_MemWrite,MEM_VRegWrite;
+    wire MEM_RegWrite,MEM_MemWrite,MEM_VRegWrite;
+	 wire [1:0] MEM_MemToReg;
 
     wire [4:0] WB_rd;
     wire [31:0] WB_data, WB_MemData, WB_ALUResult;

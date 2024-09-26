@@ -67,6 +67,7 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_s_box -section_id tb_s
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LICENSE_FILE sbox.dat
 set_global_assignment -name LICENSE_FILE ram.dat
 set_global_assignment -name SYSTEMVERILOG_FILE components/Alus.sv
 set_global_assignment -name LICENSE_FILE datos_aleatorios_20bits.dat
@@ -110,25 +111,17 @@ set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Vectorial_Register.sv
 set_global_assignment -name SYSTEMVERILOG_FILE components/s_box.sv
 set_global_assignment -name SYSTEMVERILOG_FILE components/tb_s_box.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE top/Controller.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/Controller.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/Datapath.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/Datapath.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/EX_MEMReg.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/EXPipe.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/EXPipe.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/ID_EXReg.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/IDPipe.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/IDPipe.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/IF_IDReg.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/IFPipe.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/IFPipe.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/MEM_WBReg.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/MEMPipe.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/MEMPipe.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/top.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/top.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/WBPipe.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE top/WBPipe.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/InstMemory.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Vectorial_Register_File.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Vectorial_Register.sv -section_id tb_top
@@ -137,28 +130,22 @@ set_global_assignment -name EDA_TEST_BENCH_FILE components/Alu.sv -section_id tb
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Hot_Bit.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Nbit_Equal_Comp.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Register_File.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE components/Adder.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Adder1bit.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE components/Alu.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Decoder.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Equal_Comp.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Fordwarding_Unit.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/HazardUnit.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE components/Hot_Bit.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/ImmGen.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE components/InstMemory.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/memory.dat -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Memory.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Mux.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE components/Nbit_Equal_Comp.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/PCRegister.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Register.sv -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE components/Register_File.sv.bak -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Shifter.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE memory.dat -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE output.bin -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE ram.dat -section_id tb_top
-set_global_assignment -name EDA_TEST_BENCH_FILE memory.bin -section_id tb_top
+set_global_assignment -name EDA_TEST_BENCH_FILE sbox.dat -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/tb_s_box.sv -section_id tb_s_box
 set_global_assignment -name EDA_TEST_BENCH_FILE components/s_box.sv -section_id tb_s_box
 set_global_assignment -name EDA_TEST_BENCH_FILE datos_aleatorios_20bits.dat -section_id tb_s_box
