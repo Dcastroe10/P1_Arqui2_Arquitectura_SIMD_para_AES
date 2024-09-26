@@ -17,22 +17,24 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
 	 reg [31:0] Fwdata_2 [1:0];
 
     reg [31:0] ShiftedImm;
+	 reg Temp_Equal;
 	 //de momento no se generan inmediatos
     ImmGen immGen(
         .OpCode(Instruction[19:15]),
-        .InstructionP1(Instruction[14:0]),
+        .InstructionP1(Instruction[4:0]),
         .InstructionP2(Instruction[9:0]),
         .Imm(Imm));
-
+		  
+	 assign BranchAddr = Imm;
     //Shifter shifter(
     //    .data(Imm),
     //    .out(ShiftedImm));
 
-    Adder #(12) BAdder (
+    /*Adder #(12) BAdder (
         .a(PC),
         .b(Imm[11:0]),
         .sum(BranchAddr),
-        .cin(1'b0));
+        .cin(1'b0));*/
 
     assign rd = Instruction[14:10];
     assign rs1 = (Instruction[19:15] == 5'b11000) ? 5'b00000 : Instruction[9:5];
@@ -69,6 +71,9 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
     Nbit_Equal_Comp #(32) equalComp(
         .Data0(r_data1),
         .Data1(r_data2),
-        .Out(Equal));
+        .Out(Temp_Equal));
+		  
+	 assign Equal = (Instruction[19:15] == 5'b11001) ? 5'b1 : Temp_Equal;
+	
 
 endmodule

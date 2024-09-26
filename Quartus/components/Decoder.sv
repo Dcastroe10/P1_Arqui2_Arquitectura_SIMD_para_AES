@@ -134,7 +134,7 @@ module Decoder (OpCode, rd_type, rs1_type, rs2_type, ALUControl, RegWrite, MemWr
                 ALUScr = 1'b1;
 					 VRegWrite = 1'b0;
             end
-				5'b11011: begin // str rd=[rs1]
+				5'b11010: begin // str rd=[rs1]
                 ALUControl = 2'b00;
                 RegWrite = 1'b0;
                 MemWrite = 1'b1;
@@ -142,6 +142,42 @@ module Decoder (OpCode, rd_type, rs1_type, rs2_type, ALUControl, RegWrite, MemWr
                 MemToReg = 2'b00;
                 ALUScr = 1'b1;
 					 VRegWrite = 1'b0;
+            end
+				5'b10100: begin // beq rs1 == rs3
+                ALUControl = 2'b00;
+                RegWrite = 1'b0;
+                MemWrite = 1'b0;
+                Branch = 1'b1;
+                MemToReg = 2'b00;
+                ALUScr = 1'b0;
+					 VRegWrite = 1'b0;
+            end
+				5'b11001: begin // branch
+                ALUControl = 2'b00;
+                RegWrite = 1'b0;
+                MemWrite = 1'b0;
+                Branch = 1'b1;
+                MemToReg = 2'b00;
+                ALUScr = 1'b0;
+					 VRegWrite = 1'b0;
+            end
+				5'b11001: begin // branch
+                ALUControl = 2'b00;
+                RegWrite = 1'b0;
+                MemWrite = 1'b0;
+                Branch = 1'b1;
+                MemToReg = 2'b00;
+                ALUScr = 1'b0;
+					 VRegWrite = 1'b0;
+            end
+				5'b11110: begin // instruccion especial sbox
+                ALUControl = 2'b00;
+                RegWrite = 1'b0;
+                MemWrite = 1'b0;
+                Branch = 1'b0;
+                MemToReg = 2'b10;
+                ALUScr = 1'b1;
+					 VRegWrite = 1'b1;
             end
             default: begin
                 ALUControl = 2'b00;

@@ -34,6 +34,9 @@ module top(clk, rst);
     wire WB_RegWrite,WB_VRegWrite;
 	 wire [1:0] WB_MemToReg;
 	 wire [31:0] MEM_sbox,WB_sbox;
+	 
+	 wire [2:0] Controles [1:0];
+	 wire [2:0] MuxControllerOut;
 
     IFPipe IFPipe(.clk(clk), .rst(rst), .BranchAddr(BranchAddr), .Branch(Branch), .PCWrite(PCWrite), .PC(IF_PC), .Instruction(IF_Instruction));
 
@@ -46,11 +49,16 @@ module top(clk, rst);
     
     Controller Controller(.Instruction(ID_Instruction), .ALUControl(ID_ALUControl), .RegWrite(ID_RegWrite), .MemWrite(ID_MemWrite), .Branch(CtrBranch), .MemToReg(ID_MemToReg), .ALUScr(ID_ALUScr), .VRegWrite(ID_VRegWrite));
     assign Branch = CtrBranch && ID_Equal;
+	 
+	 assign Controles [0] = {ID_MemWrite,ID_RegWrite,ID_VRegWrite};
+	 assign Controles [1] = 3'b000;
+	 
+	 Mux #(2,3) FlushMux(.Data_arr(Controles),.selector(Flush),.Out(MuxControllerOut));
 
 
     ID_EXReg ID_EXReg(.clk(clk), .ID_data1(ID_data1), .ID_data2(ID_data2), .ID_Imm(ID_Imm),
                     .ID_rd(ID_rd), .ID_rs1(ID_rs1), .ID_rs2(ID_rs2), .ID_ALUControl(ID_ALUControl),
-                    .ID_RegWrite(ID_RegWrite), .ID_MemWrite(ID_MemWrite), .ID_MemToReg(ID_MemToReg), .ID_ALUScr(ID_ALUScr),.ID_VRegWrite(ID_VRegWrite),
+                    .ID_RegWrite(MuxControllerOut[1]), .ID_MemWrite(MuxControllerOut[2]), .ID_MemToReg(ID_MemToReg), .ID_ALUScr(ID_ALUScr),.ID_VRegWrite(MuxControllerOut[0]),
                     .EX_data1(EX_data1), .EX_data2(EX_data2), .EX_Imm(EX_Imm),
                     .EX_rd(EX_rd), .EX_rs1(EX_rs1), .EX_rs2(EX_rs2), .EX_ALUControl(EX_ALUControl),
                     .EX_RegWrite(EX_RegWrite), .EX_MemWrite(EX_MemWrite), .EX_MemToReg(EX_MemToReg), .EX_ALUScr(EX_ALUScr),.EX_VRegWrite(EX_VRegWrite));
