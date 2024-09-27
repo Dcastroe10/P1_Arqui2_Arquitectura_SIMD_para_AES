@@ -14,7 +14,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {d:/quartus/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:05 on Sep 26,2024
+# Start time: 01:11:21 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver d:/quartus/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -96,7 +96,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 01:48:06 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:22 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -107,7 +107,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {d:/quartus/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:07 on Sep 26,2024
+# Start time: 01:11:23 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver d:/quartus/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -171,7 +171,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 01:48:07 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:23 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -182,7 +182,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {d:/quartus/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:07 on Sep 26,2024
+# Start time: 01:11:23 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver d:/quartus/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -224,7 +224,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 01:48:07 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:24 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -235,7 +235,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {d:/quartus/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:08 on Sep 26,2024
+# Start time: 01:11:24 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver d:/quartus/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -365,7 +365,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 01:48:09 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:25 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -376,7 +376,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {d:/quartus/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:09 on Sep 26,2024
+# Start time: 01:11:26 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver d:/quartus/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -459,7 +459,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 01:48:10 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:26 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -470,7 +470,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:10 on Sep 26,2024
+# Start time: 01:11:27 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -484,19 +484,19 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 01:48:13 on Sep 26,2024, Elapsed time: 0:00:03
+# End time: 01:11:30 on Sep 27,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 20
 # vlog -vlog01compat -work cyclonev_ver {d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:13 on Sep 26,2024
+# Start time: 01:11:30 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 01:48:15 on Sep 26,2024, Elapsed time: 0:00:02
+# End time: 01:11:32 on Sep 27,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {d:/quartus/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:15 on Sep 26,2024
+# Start time: 01:11:32 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver d:/quartus/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -636,7 +636,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 01:48:16 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:33 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -647,15 +647,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:17 on Sep 26,2024
+# Start time: 01:11:33 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 01:48:19 on Sep 26,2024, Elapsed time: 0:00:02
+# End time: 01:11:35 on Sep 27,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {d:/quartus/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:19 on Sep 26,2024
+# Start time: 01:11:35 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver d:/quartus/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -755,7 +755,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 01:48:19 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:36 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -766,7 +766,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:20 on Sep 26,2024
+# Start time: 01:11:36 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/quartus/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
@@ -776,18 +776,18 @@
 # ** Warning: (vlog-2083) <protected>(<protected>): Carriage return (0x0D) is not followed by a newline (0x0A).
 # 
 # Top level modules:
-# End time: 01:48:23 on Sep 26,2024, Elapsed time: 0:00:03
+# End time: 01:11:39 on Sep 27,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 12
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {d:/quartus/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:23 on Sep 26,2024
+# Start time: 01:11:39 on Sep 27,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver d:/quartus/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 01:48:23 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -801,639 +801,659 @@
 # 
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv 
 # -- Compiling module Multi_Alu
 # 
 # Top level modules:
 # 	Multi_Alu
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register_File.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register_File.sv 
 # -- Compiling module Vectorial_Register_File
 # 
 # Top level modules:
 # 	Vectorial_Register_File
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register.sv 
 # -- Compiling module Vectorial_Register
 # 
 # Top level modules:
 # 	Vectorial_Register
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv 
 # -- Compiling module WBPipe
 # 
 # Top level modules:
 # 	WBPipe
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv 
 # -- Compiling module MEMPipe
 # 
 # Top level modules:
 # 	MEMPipe
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv 
 # -- Compiling module MEM_WBReg
 # 
 # Top level modules:
 # 	MEM_WBReg
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:40 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:40 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv 
 # -- Compiling module IFPipe
 # 
 # Top level modules:
 # 	IFPipe
-# End time: 01:48:24 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:24 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv 
 # -- Compiling module IF_IDReg
 # 
 # Top level modules:
 # 	IF_IDReg
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv 
 # -- Compiling module IDPipe
 # 
 # Top level modules:
 # 	IDPipe
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv 
 # -- Compiling module ID_EXReg
 # 
 # Top level modules:
 # 	ID_EXReg
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv 
 # -- Compiling module EXPipe
 # 
 # Top level modules:
 # 	EXPipe
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv 
 # -- Compiling module EX_MEMReg
 # 
 # Top level modules:
 # 	EX_MEMReg
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv 
 # -- Compiling module Controller
 # 
 # Top level modules:
 # 	Controller
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register_File.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register_File.sv 
 # -- Compiling module Register_File
 # 
 # Top level modules:
 # 	Register_File
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv 
 # -- Compiling module Register
 # 
 # Top level modules:
 # 	Register
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv 
 # -- Compiling module PCRegister
 # 
 # Top level modules:
 # 	PCRegister
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Nbit_Equal_Comp.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Nbit_Equal_Comp.sv 
 # -- Compiling module Nbit_Equal_Comp
 # 
 # Top level modules:
 # 	Nbit_Equal_Comp
-# End time: 01:48:25 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:41 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:25 on Sep 26,2024
+# Start time: 01:11:41 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Mux.sv 
 # -- Compiling module Mux
 # 
 # Top level modules:
 # 	Mux
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/ImmGen.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/ImmGen.sv 
 # -- Compiling module ImmGen
 # 
 # Top level modules:
 # 	ImmGen
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Hot_Bit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Hot_Bit.sv 
 # -- Compiling module Hot_Bit
 # 
 # Top level modules:
 # 	Hot_Bit
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/HazardUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/HazardUnit.sv 
 # -- Compiling module HazardUnit
 # 
 # Top level modules:
 # 	HazardUnit
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv 
 # -- Compiling module Fordwarding_Unit
 # 
 # Top level modules:
 # 	Fordwarding_Unit
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Equal_Comp.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Equal_Comp.sv 
 # -- Compiling module Equal_Comp
 # 
 # Top level modules:
 # 	Equal_Comp
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Decoder.sv 
 # -- Compiling module Decoder
 # 
 # Top level modules:
 # 	Decoder
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv 
 # -- Compiling module Alu
 # 
 # Top level modules:
 # 	Alu
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder1bit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder1bit.sv 
 # -- Compiling module Adder1bit
 # 
 # Top level modules:
 # 	Adder1bit
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv 
 # -- Compiling module Adder
 # 
 # Top level modules:
 # 	Adder
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:26 on Sep 26,2024
+# Start time: 01:11:42 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv 
 # -- Compiling module tb_top
 # 
 # Top level modules:
 # 	tb_top
-# End time: 01:48:26 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:42 on Sep 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:11:42 on Sep 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv 
+# -- Compiling module gf_mul
+# 
+# Top level modules:
+# 	gf_mul
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Memory.sv 
 # -- Compiling module Memory
 # 
 # Top level modules:
 # 	Memory
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv 
 # -- Compiling module InstMemory
 # 
 # Top level modules:
 # 	InstMemory
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv 
 # -- Compiling module s_box
 # 
 # Top level modules:
 # 	s_box
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:11:43 on Sep 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv 
+# -- Compiling module rcon
+# 
+# Top level modules:
+# 	rcon
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv 
 # -- Compiling module Controller
 # 
 # Top level modules:
 # 	Controller
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Datapath.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Datapath.sv 
 # -- Compiling module Datapath
 # 
 # Top level modules:
 # 	Datapath
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv 
 # -- Compiling module EX_MEMReg
 # 
 # Top level modules:
 # 	EX_MEMReg
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv 
 # -- Compiling module EXPipe
 # 
 # Top level modules:
 # 	EXPipe
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv 
 # -- Compiling module ID_EXReg
 # 
 # Top level modules:
 # 	ID_EXReg
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:43 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv 
 # -- Compiling module IDPipe
 # 
 # Top level modules:
 # 	IDPipe
-# End time: 01:48:27 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:43 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:27 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv 
 # -- Compiling module IF_IDReg
 # 
 # Top level modules:
 # 	IF_IDReg
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:01
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv 
 # -- Compiling module IFPipe
 # 
 # Top level modules:
 # 	IFPipe
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv 
 # -- Compiling module MEM_WBReg
 # 
 # Top level modules:
 # 	MEM_WBReg
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv 
 # -- Compiling module MEMPipe
 # 
 # Top level modules:
 # 	MEMPipe
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv 
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv 
 # -- Compiling module WBPipe
 # 
 # Top level modules:
 # 	WBPipe
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv 
 # -- Compiling module InstMemory
 # 
 # Top level modules:
 # 	InstMemory
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register_File.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register_File.sv 
 # -- Compiling module Vectorial_Register_File
 # 
 # Top level modules:
 # 	Vectorial_Register_File
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Vectorial_Register.sv 
 # -- Compiling module Vectorial_Register
 # 
 # Top level modules:
 # 	Vectorial_Register
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:44 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv 
 # -- Compiling module Adder
 # 
 # Top level modules:
 # 	Adder
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:44 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:28 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv 
 # -- Compiling module Alu
 # 
 # Top level modules:
 # 	Alu
-# End time: 01:48:28 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Hot_Bit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Hot_Bit.sv 
 # -- Compiling module Hot_Bit
 # 
 # Top level modules:
 # 	Hot_Bit
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Nbit_Equal_Comp.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Nbit_Equal_Comp.sv 
 # -- Compiling module Nbit_Equal_Comp
 # 
 # Top level modules:
 # 	Nbit_Equal_Comp
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register_File.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register_File.sv 
 # -- Compiling module Register_File
 # 
 # Top level modules:
 # 	Register_File
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder1bit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder1bit.sv 
 # -- Compiling module Adder1bit
 # 
 # Top level modules:
 # 	Adder1bit
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Decoder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Decoder.sv 
 # -- Compiling module Decoder
 # 
 # Top level modules:
 # 	Decoder
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Equal_Comp.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Equal_Comp.sv 
 # -- Compiling module Equal_Comp
 # 
 # Top level modules:
 # 	Equal_Comp
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv 
 # -- Compiling module Fordwarding_Unit
 # 
 # Top level modules:
 # 	Fordwarding_Unit
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/HazardUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/HazardUnit.sv 
 # -- Compiling module HazardUnit
 # 
 # Top level modules:
 # 	HazardUnit
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/ImmGen.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/ImmGen.sv 
 # -- Compiling module ImmGen
 # 
 # Top level modules:
 # 	ImmGen
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:45 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Memory.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:29 on Sep 26,2024
+# Start time: 01:11:45 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Memory.sv 
 # -- Compiling module Memory
 # 
 # Top level modules:
 # 	Memory
-# End time: 01:48:29 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:46 on Sep 27,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:30 on Sep 26,2024
+# Start time: 01:11:46 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Mux.sv 
 # -- Compiling module Mux
 # 
 # Top level modules:
 # 	Mux
-# End time: 01:48:30 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:46 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:30 on Sep 26,2024
+# Start time: 01:11:46 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv 
 # -- Compiling module PCRegister
 # 
 # Top level modules:
 # 	PCRegister
-# End time: 01:48:30 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:46 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:30 on Sep 26,2024
+# Start time: 01:11:46 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv 
 # -- Compiling module Register
 # 
 # Top level modules:
 # 	Register
-# End time: 01:48:30 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:46 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components {C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Shifter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:48:30 on Sep 26,2024
+# Start time: 01:11:46 on Sep 27,2024
 # vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components" C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Shifter.sv 
 # -- Compiling module Shifter
 # 
 # Top level modules:
 # 	Shifter
-# End time: 01:48:30 on Sep 26,2024, Elapsed time: 0:00:00
+# End time: 01:11:46 on Sep 27,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_top
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_top 
-# Start time: 01:48:30 on Sep 26,2024
+# Start time: 01:11:46 on Sep 27,2024
 # Loading sv_std.std
 # Loading work.tb_top
 # Loading work.top
@@ -1457,10 +1477,12 @@
 # Loading work.EXPipe
 # Loading work.Alu
 # Loading work.Multi_Alu
+# Loading work.gf_mul
 # Loading work.EX_MEMReg
 # Loading work.Fordwarding_Unit
 # Loading work.MEMPipe
 # Loading work.s_box
+# Loading work.rcon
 # Loading work.Memory
 # Loading work.MEM_WBReg
 # Loading work.WBPipe
@@ -1471,9 +1493,9 @@
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (20) does not match connection size (21) for port 'readData'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(48): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(50): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IDPipe File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(51): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(53): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/Controller File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
 # ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
@@ -1484,96 +1506,53 @@
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(34): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(35): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(36): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
 # ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Missing connection for port 'ALUFlags'.
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(70): [TFMPC] - Too few port connections. Expected 16, found 15.
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(72): [TFMPC] - Too few port connections. Expected 16, found 15.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EX_MEMReg File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(74): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(76): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/ForwardUnit File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv
-# Trace back: Error QStructure::sort: invalid command name ""
-#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
-#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
-#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
-#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
-#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
-#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
-#  Trace back: invalid command name ""
-#     while executing
-# "{} idsToReferencePaths 1 {}"
-#     ("uplevel" body line 1)
-#     invoked from within
-# "uplevel 1 [lrange $args 0 end-1] [lindex $args end]"
-#     (procedure "applyToList" line 2)
-#     invoked from within
-# "applyToList $treeView idsToReferencePaths $useIds $top $expanded"
-#     (procedure "_resetTree" line 29)
-#     invoked from within
-# "_resetTree $w"
-#     (procedure "sort" line 6)
-#     invoked from within
-# "sort $w $col $dir"
-#     (procedure "structsort" line 9)
-#     invoked from within
-# "structsort .main_pane.structure 0 ascending"
-#     (in namespace inscope "::QStructure" script line 1)
-#     invoked from within
-# "namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending"
-#     ("eval" body line 1)
-#     invoked from within
-# "eval $itk_option(-sortcommand) $column $dir"
-#     (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 26)
-#     invoked from within
-# "sort $sortIdx $dir"
-#     (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
-#     invoked from within
-# "::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
-#     (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
-#     invoked from within
-# "namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
-#     ("after" script)
-#    <2:D:/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ""}
-#    <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ""}
 # 
 # add wave *
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: joedu  Hostname: LAPTOP-2T28LR2L  ProcessID: 11624
-#           Attempting to use alternate WLF file "./wlftwswanz".
+#           Attempting to use alternate WLF file "./wlftc7vfqs".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftwswanz
+#           Using alternate file: ./wlftc7vfqs
 # view structure
 # .main_pane.structure.interior.cs.body.struct
 # view signals
@@ -1583,16 +1562,16 @@
 #    Time: 210 ps  Iteration: 0  Instance: /tb_top
 # 1
 # Break in Module tb_top at C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv line 34
-add wave -position end  sim:/tb_top/top1/WBPipe/MemToReg
+add wave -position end  sim:/tb_top/top1/IDPipe/regFile/generate_registers[3]/register/register
 restart
 # Closing VCD file "pv.vcd"
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (20) does not match connection size (21) for port 'readData'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(48): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(50): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IDPipe File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(51): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(53): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/Controller File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
 # ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
@@ -1603,58 +1582,57 @@ restart
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(34): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(35): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(36): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
 # ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Missing connection for port 'ALUFlags'.
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(70): [TFMPC] - Too few port connections. Expected 16, found 15.
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(72): [TFMPC] - Too few port connections. Expected 16, found 15.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EX_MEMReg File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(74): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(76): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/ForwardUnit File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv
 run
-run
-add wave -position end  sim:/tb_top/top1/IDPipe/vecRegFile/generate_vectorial_registers[4]/vectorial_register/register
+add wave -position end  sim:/tb_top/top1/MEMPipe/rconData
 restart
 # Closing VCD file "pv.vcd"
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (20) does not match connection size (21) for port 'readData'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(48): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(50): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IDPipe File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(51): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(53): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/Controller File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
 # ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
@@ -1665,53 +1643,174 @@ restart
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(34): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(34): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(35): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(36): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
-# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(36): [TFMPC] - Missing connection for port 'ALUFlags'.
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Too few port connections. Expected 5, found 4.
-#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
 # ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Missing connection for port 'ALUFlags'.
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
 # ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
-# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(70): [TFMPC] - Too few port connections. Expected 16, found 15.
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(72): [TFMPC] - Too few port connections. Expected 16, found 15.
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EX_MEMReg File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv
-# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(74): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(76): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/ForwardUnit File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv
+run
+add wave -position end  sim:/tb_top/top1/WBPipe/WriteData
+restart
+# Closing VCD file "pv.vcd"
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (20) does not match connection size (21) for port 'readData'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(50): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IDPipe File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(53): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/Controller File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(72): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EX_MEMReg File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(76): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
 #    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/ForwardUnit File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv
 run
 # GetModuleFileName: No se puede encontrar el módulo especificado.
 # 
 # 
-# ** Note: $finish    : C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv(34)
-#    Time: 210 ps  Iteration: 0  Instance: /tb_top
-# 1
-# Break in Module tb_top at C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv line 34
-# End time: 01:50:32 on Sep 26,2024, Elapsed time: 0:02:02
-# Errors: 14, Warnings: 95
+add wave -position end  sim:/tb_top/top1/IDPipe/vecRegFile/generate_vectorial_registers[3]/vectorial_register/register
+restart
+# Closing VCD file "pv.vcd"
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (10) does not match connection size (12) for port 'address'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv(15): [PCDPC] - Port size (20) does not match connection size (21) for port 'readData'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IFPipe/IMem File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(50): [PCDPC] - Port size (4) does not match connection size (5) for port 'writeAddr'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/IDPipe File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(53): [PCDPC] - Port size (20) does not match connection size (21) for port 'Instruction'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/Controller File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv(35): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (32) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/alu/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(37): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu0/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(38): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu1/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(39): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu2/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3 File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv
+# ** Warning: (vsim-3722) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv(40): [TFMPC] - Missing connection for port 'ALUFlags'.
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'a'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'b'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv(22): [PCDPC] - Port size (64) does not match connection size (8) for port 'sum'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EXPipe/Multi_ALU/alu3/sum File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv
+# ** Warning: (vsim-3017) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(72): [TFMPC] - Too few port connections. Expected 16, found 15.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/EX_MEMReg File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv
+# ** Warning: (vsim-3015) C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv(76): [PCDPC] - Port size (1) does not match connection size (2) for port 'MemToReg'. The port definition is at: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/top1/ForwardUnit File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Fordwarding_Unit.sv
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# End time: 01:14:27 on Sep 27,2024, Elapsed time: 0:02:41
+# Errors: 0, Warnings: 157

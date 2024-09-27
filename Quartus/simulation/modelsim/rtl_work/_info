@@ -10,7 +10,7 @@ cModel Technology
 Z0 dC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/simulation/modelsim
 vAdder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1727336908
+Z2 !s110 1727421104
 !i10b 1
 !s100 ;62l7I7C2R`Ef;Mfj;[=P1
 IJ5j9<=XM:Cd5SID8HNCDV2
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1727336908.000000
+Z6 !s108 1727421104.000000
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z9 tCvgOpt 0
 n@adder
 vAdder1bit
 R1
-Z10 !s110 1727336909
+Z10 !s110 1727421105
 !i10b 1
 !s100 @Idg0:8GYck[leaP_zIT`1
 IVP8[7LK0fh0<69<>3L0_X1
@@ -52,7 +52,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1727336909.000000
+Z11 !s108 1727421105.000000
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder1bit.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder1bit.sv|
 !i113 1
@@ -62,7 +62,7 @@ R9
 n@adder1bit
 vAlu
 R1
-R2
+R10
 !i10b 1
 !s100 oF00f3TdO06c2B02Mz@WX3
 IIR3@W6ZBa_OjK]zS8H1G<0
@@ -78,7 +78,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv|
 !i113 1
@@ -88,15 +88,15 @@ R9
 n@alu
 vController
 R1
-Z12 !s110 1727336907
+Z12 !s110 1727421103
 !i10b 1
-!s100 KQ9n1oQ;jcJCRTRIn`SeE3
-IXKHUI0AW@549AkSXDLFG60
+!s100 4V5H3Ez^=Q[Jh;00^XjGG2
+I?0g5S?jhYca1XHjOScV]R2
 R3
 !s105 Controller_sv_unit
 S1
 R0
-Z13 w1727319354
+w1727387648
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv
 L0 2
@@ -104,12 +104,12 @@ R5
 r1
 !s85 0
 31
-Z14 !s108 1727336907.000000
+Z13 !s108 1727421103.000000
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Controller.sv|
 !i113 1
 R7
-Z15 !s92 -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top
+Z14 !s92 -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top
 R9
 n@controller
 vDatapath
@@ -122,7 +122,7 @@ R3
 !s105 Datapath_sv_unit
 S1
 R0
-R13
+Z15 w1727319354
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Datapath.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Datapath.sv
 L0 2
@@ -130,25 +130,25 @@ R5
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Datapath.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/Datapath.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@datapath
 vDecoder
 R1
 R10
 !i10b 1
-!s100 Ri4WYW8QgW2BMFn2e0A9<0
-I3ZYJczlU5DCeU653aWmeJ1
+!s100 Cf=3nT^abD7cRFJjCRIoN3
+IBmkE7m@?cG5]I3RSKKGJj1
 R3
 !s105 Decoder_sv_unit
 S1
 R0
-w1727336788
+w1727420301
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Decoder.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Decoder.sv
 L0 1
@@ -208,25 +208,25 @@ R5
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EX_MEMReg.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@e@x_@m@e@m@reg
 vEXPipe
 R1
 R12
 !i10b 1
-!s100 njE@:>Z^dWT<[h`fM`kXg1
-I8YmQ9Fk7T9[TTBZD?Y`072
+!s100 7a98BBU_<DAQFgF@6F[QF1
+IU]J8HT<>>H@7n=j7l@W>33
 R3
 !s105 EXPipe_sv_unit
 S1
 R0
-R13
+w1727390508
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv
 L0 2
@@ -234,12 +234,12 @@ R5
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/EXPipe.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@e@x@pipe
 vFordwarding_Unit
@@ -268,6 +268,31 @@ R7
 R8
 R9
 n@fordwarding_@unit
+vgf_mul
+R1
+R12
+!i10b 1
+!s100 ze?X^8CnSW4[eagDH[C;?0
+I28STa1O2F4KK9MX@bn>I=0
+R3
+!s105 gf_mul_sv_unit
+S1
+R0
+w1727419511
+8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv
+FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv
+L0 1
+R5
+r1
+!s85 0
+31
+Z16 !s108 1727421102.000000
+!s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus
+R9
 vHazardUnit
 R1
 R10
@@ -324,13 +349,13 @@ vID_EXReg
 R1
 R12
 !i10b 1
-!s100 JGSDh5G2DM3A7e`jlhTT33
-IAZ89bo2S7gUk^e^>iM2CW0
+!s100 @aX;9=:dVKcaU9LgNIO4>1
+IiLKC>7@0:I_aH>Q`M3f=21
 R3
 !s105 ID_EXReg_sv_unit
 S1
 R0
-w1727335677
+w1727390664
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv
 L0 1
@@ -338,12 +363,12 @@ R5
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/ID_EXReg.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@i@d_@e@x@reg
 vIDPipe
@@ -356,7 +381,7 @@ R3
 !s105 IDPipe_sv_unit
 S1
 R0
-R13
+R15
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv
 L0 2
@@ -364,17 +389,17 @@ R5
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IDPipe.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@i@d@pipe
 vIF_IDReg
 R1
-R12
+R2
 !i10b 1
 !s100 :STSn?9nQDO`zVT;FOz>n2
 I=52TQj8W7@E;A0MIj`KAD1
@@ -382,7 +407,7 @@ R3
 !s105 IF_IDReg_sv_unit
 S1
 R0
-R13
+R15
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv
 L0 1
@@ -390,12 +415,12 @@ R5
 r1
 !s85 0
 31
-R14
+R6
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IF_IDReg.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@i@f_@i@d@reg
 vIFPipe
@@ -408,7 +433,7 @@ R3
 !s105 IFPipe_sv_unit
 S1
 R0
-R13
+R15
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv
 L0 1
@@ -421,7 +446,7 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@i@f@pipe
 vImmGen
@@ -480,13 +505,13 @@ vMEM_WBReg
 R1
 R2
 !i10b 1
-!s100 mA2QEl34DPH57hbDQ?;LW1
-I8<?ABDVJ<TYmV_FnK0SnF0
+!s100 Yg:Xm`jb_F3jQ^<Pi5n]J0
+IEab@UTcl59<6UjJ>im_T:3
 R3
 !s105 MEM_WBReg_sv_unit
 S1
 R0
-w1727335780
+w1727420819
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv
 L0 1
@@ -499,12 +524,12 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEM_WBReg.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@m@e@m_@w@b@reg
 vMemory
 R1
-R10
+Z17 !s110 1727421106
 !i10b 1
 !s100 3]o@jbVA2WL<fY[0RR3_g2
 IHWP1M_M`eD0Q8aT8[>F=A1
@@ -532,13 +557,13 @@ vMEMPipe
 R1
 R2
 !i10b 1
-!s100 N7j2M`Ie1NZiclehCIN=k3
-Ig8O8d5FlJ3WGQ<A3oLNKU0
+!s100 @GlF:fnjB[I[PH0zXdnz]2
+IJ>7@aWfJGeTnj<K<UPz^F3
 R3
 !s105 MEMPipe_sv_unit
 S1
 R0
-R13
+w1727420562
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv
 L0 2
@@ -551,20 +576,20 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@m@e@m@pipe
 vMulti_Alu
 R1
-!s110 1727336904
+!s110 1727421100
 !i10b 1
-!s100 JUTAE>fbLno3zg3_6W4>?2
-I>3309^gbnAM]3eeIYbaEd1
+!s100 Yga_]Yke^f4]k37A3F9SI1
+I2G]LjA8@@N9:V>a60MbIF0
 R3
 !s105 Multi_Alu_sv_unit
 S1
 R0
-R4
+w1727389737
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv
 L0 1
@@ -572,7 +597,7 @@ R5
 r1
 !s85 0
 31
-!s108 1727336904.000000
+!s108 1727421100.000000
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Multi_Alu.sv|
 !i113 1
@@ -582,7 +607,7 @@ R9
 n@multi_@alu
 vMux
 R1
-Z16 !s110 1727336910
+R17
 !i10b 1
 !s100 g]4Hd6:154c786>kTUeU_3
 IZFolF<joG3lGj3`fWJ=ea2
@@ -598,7 +623,7 @@ R5
 r1
 !s85 0
 31
-Z17 !s108 1727336910.000000
+Z18 !s108 1727421106.000000
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Mux.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Mux.sv|
 !i113 1
@@ -634,7 +659,7 @@ R9
 n@nbit_@equal_@comp
 vPCRegister
 R1
-R16
+R17
 !i10b 1
 !s100 fg6BFO[`^GL5>ekA>7UPE2
 I53=3Q7D8RjJ@Z3g4gafFc2
@@ -650,7 +675,7 @@ R5
 r1
 !s85 0
 31
-R17
+R18
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/PCRegister.sv|
 !i113 1
@@ -658,9 +683,34 @@ R7
 R8
 R9
 n@p@c@register
+vrcon
+R1
+R12
+!i10b 1
+!s100 ;=_`zO[MiWC79g2;7An;N3
+Ii0oY`mP?2:4:TOZM^kXQh0
+R3
+!s105 rcon_sv_unit
+S1
+R0
+w1727419105
+8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv
+FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv|
+!i113 1
+R7
+R8
+R9
 vRegister
 R1
-R16
+R17
 !i10b 1
 !s100 Xi5C_JkDU9n:Z8GgYJS8d2
 I57Qk5L4gNldJ3LMToh[AL1
@@ -676,7 +726,7 @@ R5
 r1
 !s85 0
 31
-R17
+R18
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Register.sv|
 !i113 1
@@ -728,7 +778,7 @@ R5
 r1
 !s85 0
 31
-R14
+R13
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv|
 !i113 1
@@ -737,7 +787,7 @@ R8
 R9
 vShifter
 R1
-R16
+R17
 !i10b 1
 !s100 8`4OzS8Ml0QSn`0;K=8MW0
 IcVULgf;`G4JFhjk=T?`>o3
@@ -753,7 +803,7 @@ R5
 r1
 !s85 0
 31
-R17
+R18
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Shifter.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Shifter.sv|
 !i113 1
@@ -763,7 +813,7 @@ R9
 n@shifter
 vtb_top
 R1
-!s110 1727336906
+!s110 1727421102
 !i10b 1
 !s100 6S?9?<:VBfhWF5be>6zbX3
 I2Z>_JaFzC;QMGEb2VN5KA2
@@ -771,7 +821,7 @@ R3
 !s105 tb_top_sv_unit
 S1
 R0
-R13
+R15
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv
 L0 2
@@ -779,7 +829,7 @@ R5
 r1
 !s85 0
 31
-!s108 1727336906.000000
+R16
 !s107 C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv|
 !i113 1
@@ -790,13 +840,13 @@ vtop
 R1
 R2
 !i10b 1
-!s100 7ULBTO:[P:M_`237iLBLi1
-IEhl@ZEl_TgZkGM^ogj3UL1
+!s100 `n2H]X?LV3A14bE<k;8fJ2
+If4;QagzkmJ3KG^B<L?=Jz2
 R3
 !s105 top_sv_unit
 S1
 R0
-w1727336542
+w1727420872
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv
 L0 2
@@ -809,7 +859,7 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv|
 !i113 1
 R7
-R15
+R14
 R9
 vVectorial_Register
 R1
@@ -867,13 +917,13 @@ vWBPipe
 R1
 R2
 !i10b 1
-!s100 Kbchl<^MmB45=0z_T@Bdb3
-I3UhGXB;PzcncKDU1YfcFW3
+!s100 e7no16K7b:Ae:nT57;aW<1
+ID7F1QTE@3D4VdUhHSD2YV2
 R3
 !s105 WBPipe_sv_unit
 S1
 R0
-R13
+w1727419799
 8C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv
 FC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv
 L0 2
@@ -886,6 +936,6 @@ R6
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top|C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv|
 !i113 1
 R7
-R15
+R14
 R9
 n@w@b@pipe

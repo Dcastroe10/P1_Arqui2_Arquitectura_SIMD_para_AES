@@ -16,16 +16,18 @@ module top(clk, rst);
 	 wire [31:0] ID_Imm;
     wire [4:0] ID_rd, ID_rs1, ID_rs2;
     wire ID_RegWrite, ID_Equal, ID_MemWrite,ID_ALUScr, ID_VRegWrite;
-    wire [1:0] ID_ALUControl, ID_MemToReg;
+    wire [1:0] ID_MemToReg;
+	 wire [2:0] ID_ALUControl;
 
     wire [31:0] EX_data1, EX_data2, EX_Imm, EX_ALUResult, EX_WriteData;
     wire [4:0] EX_rd, EX_rs1, EX_rs2;
     wire EX_RegWrite, EX_MemWrite,EX_ALUScr, EX_VRegWrite;
-    wire [1:0] EX_ALUControl, EX_MemToReg;
+    wire [1:0] EX_MemToReg;
+	 wire [2:0] EX_ALUControl;
 
     wire [1:0] SelFwA, SelFwB;
 
-    wire [31:0] MEM_ALUResult, MEM_WriteData, MEM_MemData;
+    wire [31:0] MEM_ALUResult, MEM_WriteData, MEM_MemData, MEM_rcon;
     wire [4:0] MEM_rd;
     wire MEM_RegWrite,MEM_MemWrite,MEM_VRegWrite;
 	 wire [1:0] MEM_MemToReg;
@@ -34,7 +36,7 @@ module top(clk, rst);
     wire [31:0] WB_data, WB_MemData, WB_ALUResult;
     wire WB_RegWrite,WB_VRegWrite;
 	 wire [1:0] WB_MemToReg;
-	 wire [31:0] MEM_sbox,WB_sbox;
+	 wire [31:0] MEM_sbox,WB_sbox,WB_rcon;
 	 
 	 wire [2:0] Controles [1:0];
 	 wire [2:0] MuxControllerOut;
@@ -73,11 +75,11 @@ module top(clk, rst);
 
     Fordwarding_Unit ForwardUnit(.rs1(EX_rs1), .rs2(EX_rs2), .MEM_rd(MEM_rd), .WB_rd(WB_rd), .MEM_RegWrite(MEM_RegWrite), .MEM_VRegWrite(MEM_VRegWrite), .WB_RegWrite(WB_RegWrite), .WB_VRegWrite(WB_VRegWrite), .MemToReg(MEM_MemToReg), .FwASel(SelFwA), .FwBSel(SelFwB));
 
-    MEMPipe MEMPipe(.clk(clk), .ALUResult(MEM_ALUResult), .WriteData(MEM_WriteData), .MemWrite(MEM_MemWrite), .MemData(MEM_MemData),.SBoxData(MEM_sbox));
+    MEMPipe MEMPipe(.clk(clk), .ALUResult(MEM_ALUResult), .WriteData(MEM_WriteData), .MemWrite(MEM_MemWrite), .MemData(MEM_MemData),.SBoxData(MEM_sbox),.rconData(MEM_rcon));
 
-    MEM_WBReg MEM_WBReg(.clk(clk), .MEM_MemData(MEM_MemData), .MEM_ALUResult(MEM_ALUResult), .MEM_rd(MEM_rd), .MEM_MemToReg(MEM_MemToReg), .MEM_RegWrite(MEM_RegWrite),.MEM_VRegWrite(MEM_VRegWrite),.MEM_sbox(MEM_sbox),
-                        .WB_MemData(WB_MemData), .WB_ALUResult(WB_ALUResult), .WB_rd(WB_rd), .WB_MemToReg(WB_MemToReg), .WB_RegWrite(WB_RegWrite),.WB_VRegWrite(WB_VRegWrite), .WB_sbox(WB_sbox));
+    MEM_WBReg MEM_WBReg(.clk(clk), .MEM_MemData(MEM_MemData), .MEM_ALUResult(MEM_ALUResult), .MEM_rd(MEM_rd), .MEM_MemToReg(MEM_MemToReg), .MEM_RegWrite(MEM_RegWrite),.MEM_VRegWrite(MEM_VRegWrite),.MEM_sbox(MEM_sbox),.MEM_rcon(MEM_rcon),
+                        .WB_MemData(WB_MemData), .WB_ALUResult(WB_ALUResult), .WB_rd(WB_rd), .WB_MemToReg(WB_MemToReg), .WB_RegWrite(WB_RegWrite),.WB_VRegWrite(WB_VRegWrite), .WB_sbox(WB_sbox),.WB_rcon(WB_rcon));
 
-    WBPipe WBPipe(.MemData(WB_MemData), .ALUResult(WB_ALUResult), .sbox(WB_sbox),.MemToReg(WB_MemToReg), .WriteData(WB_data));
+    WBPipe WBPipe(.MemData(WB_MemData), .ALUResult(WB_ALUResult), .sbox(WB_sbox), .rcon(WB_rcon),.MemToReg(WB_MemToReg), .WriteData(WB_data));
 
 endmodule
