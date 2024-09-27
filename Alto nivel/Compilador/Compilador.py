@@ -19,6 +19,7 @@ def open_file_dialog():
             get_labels()
             print("Archivo cargado con éxito.")
             machine_code = ""
+            hex_code = ""
             mem_dir = 0
 
             for instruction in instructions:
@@ -33,13 +34,14 @@ def open_file_dialog():
                         binary_instruction = binary_instruction.ljust(20, '0')
                 
                     machine_code += str(mem_dir) + ": " + binary_instruction + "\n"
+                    hex_code += hex(int(binary_instruction,2))[2:] + "\n"
                     mem_dir += 1
                 
                 else:
                     global compiler_error
                     compiler_error = True
                     print("Formato de instruccion no valido: ", instruction)
-
+            print(hex_code)
             file.close()
             print("Archivo compilado con éxito")
 
@@ -238,7 +240,7 @@ def get_operands(operands, opcode):
         len_imma = 10
 
     if opcode == "READ_COL" or opcode == "WRITE_COL":
-        len_imma = 2
+        len_imma = 4
     
     if len(operands) == 1:
         for op in operands:
@@ -273,7 +275,10 @@ def get_operands(operands, opcode):
             
             if op.startswith('#'):
                 bin_op = bin(int(op[1:]))[2:].zfill(len_imma)
-                binary_operands += bin_op
+                if opcode == "READ_COL" or opcode == "WRITE_COL":
+                    binary_operands += "1" + bin_op
+                else:
+                    binary_operands += bin_op
             else:
                 bin_op = bin(int(op[1:]))[2:].zfill(4)
                 binary_operands += type + bin_op
@@ -283,6 +288,7 @@ def get_operands(operands, opcode):
 def get_branch(label):
     for i in labels:
         if label == i[0]:
+            print(i)
             binary_branch = format(i[1], '05b')
             return binary_branch
     return False
