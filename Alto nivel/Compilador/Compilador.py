@@ -55,6 +55,9 @@ def open_file_dialog():
                 print("Archivo con instrucciones en binario creado con exito")
 
 def parse_instruction(instruction, lables):
+    # Expresion para NOPS
+    nop_regex = r'(\b(?:NOP))\b'
+
     # Expresion regular para operaciones aritmeticas escalares
     arithmetic_scalar_regex = r'(\b(?:ADD)\b)\s+((?:R)\d+),\s*((?:R)\d+),\s*((?:V|R)\d+)'
 
@@ -87,6 +90,12 @@ def parse_instruction(instruction, lables):
 
     # Expresion regular para lectura o escritura de columnas
     read_write_col_regex = r'(\b(?:READ_COL|WRITE_COL)\b)\s+((?:V)\d+),\s+((?:V)\d+),\s+(#-?\d+)\b'
+
+    match = re.match(nop_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = ()
+        return opcode, operands
 
     match = re.match(arithmetic_scalar_regex, instruction)
     if match:
@@ -226,12 +235,17 @@ def get_opcode(opcode):
     if opcode == "RCON":
         return "10001"
     
+    if opcode == "NOP":
+        return "00000"
+    
     global compiler_error
     compiler_error = True
     print("El operador " + opcode + " no existe en el ISA")
     return "00000"
 
 def get_operands(operands, opcode):
+    if len(operands) == 0:
+        return 15*"0"
     len_imma = 0
     if opcode == "CLSH":
         len_imma = 5
