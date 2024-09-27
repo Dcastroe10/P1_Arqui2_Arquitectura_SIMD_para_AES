@@ -45,7 +45,7 @@ module tb_Multi_Alu;
         $display("Test 3: a = %h, b = %h, select = %b, result = %h", a, b, select, result_alu);
 
         // Test case 4: Operación de GF
-        a = 32'hA2AF2F63;
+        a = 32'h632FAFA2;
         b = 32'h00000001;
         select = 3'b101; // Cambiar a la operación de multiplicación GF
         #10;

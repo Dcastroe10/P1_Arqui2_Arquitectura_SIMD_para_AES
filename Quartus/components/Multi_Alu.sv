@@ -39,10 +39,10 @@
 	Alu #(8) alu2(.SrcA(a2), .SrcB(b2), .ALUControl(select[1:0]), .ALUResult(result_alu1[23:16]));
 	Alu #(8) alu3(.SrcA(a3), .SrcB(b3), .ALUControl(select[1:0]), .ALUResult(result_alu1[31:24]));
 	
-	gf_mul gf0(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b00),.result(result_alu2[7:0]));
-	gf_mul gf1(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b01),.result(result_alu2[15:8]));
-	gf_mul gf2(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b10),.result(result_alu2[23:16]));
-	gf_mul gf3(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b11),.result(result_alu2[31:24]));
+	gf_mul gf0(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b00),.result(result_alu2[31:24]));
+	gf_mul gf1(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b01),.result(result_alu2[23:16]));
+	gf_mul gf2(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b10),.result(result_alu2[15:8]));
+	gf_mul gf3(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b11),.result(result_alu2[7:0]));
 	
 	assign result_alu = (select == 3'b101) ? result_alu2 : result_alu1;
 	
