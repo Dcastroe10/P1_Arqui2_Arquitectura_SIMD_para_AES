@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Procesador_Vectorial
-Thu Sep 26 16:53:51 2024
+Fri Sep 27 01:11:11 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -113,50 +113,51 @@ Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 105. Parameter Settings for User Entity Instance: top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu3|Mux:mux4
 106. Parameter Settings for User Entity Instance: top:top1|EXPipe:EXPipe|Mux:AlusMux
 107. Parameter Settings for User Entity Instance: top:top1|MEMPipe:MEMPipe|s_box:Sbox
-108. Parameter Settings for User Entity Instance: top:top1|MEMPipe:MEMPipe|Memory:mem
-109. Parameter Settings for User Entity Instance: top:top1|WBPipe:WBPipe|Mux:MuxWD
-110. Analysis & Elaboration Settings
-111. Port Connectivity Checks: "top:top1|Fordwarding_Unit:ForwardUnit"
-112. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf3"
-113. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf2"
-114. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf1"
-115. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf0"
-116. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu3"
-117. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu2"
-118. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu1"
-119. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu0|Adder:sum"
-120. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu0"
-121. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Alu:alu|Adder:sum"
-122. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Alu:alu"
-123. Port Connectivity Checks: "top:top1|Mux:FlushMux"
-124. Port Connectivity Checks: "top:top1|Controller:Controller"
-125. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Vectorial_Register_File:vecRegFile|Mux:mux2"
-126. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Vectorial_Register_File:vecRegFile|Mux:mux1"
-127. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Vectorial_Register_File:vecRegFile|Hot_Bit:hotbit1"
-128. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Mux:mux2"
-129. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Mux:mux1"
-130. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[15].equal_n_bits"
-131. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[14].equal_n_bits"
-132. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[13].equal_n_bits"
-133. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[12].equal_n_bits"
-134. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[11].equal_n_bits"
-135. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[10].equal_n_bits"
-136. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[9].equal_n_bits"
-137. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[8].equal_n_bits"
-138. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[7].equal_n_bits"
-139. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[6].equal_n_bits"
-140. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[5].equal_n_bits"
-141. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[4].equal_n_bits"
-142. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[3].equal_n_bits"
-143. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[2].equal_n_bits"
-144. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[1].equal_n_bits"
-145. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[0].equal_n_bits"
-146. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1"
-147. Port Connectivity Checks: "top:top1|IDPipe:IDPipe"
-148. Port Connectivity Checks: "top:top1|IFPipe:IFPipe|InstMemory:IMem"
-149. Port Connectivity Checks: "top:top1|IFPipe:IFPipe|Adder:PCAdder"
-150. Analysis & Elaboration Messages
-151. Analysis & Elaboration Suppressed Messages
+108. Parameter Settings for User Entity Instance: top:top1|MEMPipe:MEMPipe|rcon:Rcon
+109. Parameter Settings for User Entity Instance: top:top1|MEMPipe:MEMPipe|Memory:mem
+110. Parameter Settings for User Entity Instance: top:top1|WBPipe:WBPipe|Mux:MuxWD
+111. Analysis & Elaboration Settings
+112. Port Connectivity Checks: "top:top1|Fordwarding_Unit:ForwardUnit"
+113. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf3"
+114. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf2"
+115. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf1"
+116. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|gf_mul:gf0"
+117. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu3"
+118. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu2"
+119. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu1"
+120. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu0|Adder:sum"
+121. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Multi_Alu:Multi_ALU|Alu:alu0"
+122. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Alu:alu|Adder:sum"
+123. Port Connectivity Checks: "top:top1|EXPipe:EXPipe|Alu:alu"
+124. Port Connectivity Checks: "top:top1|Mux:FlushMux"
+125. Port Connectivity Checks: "top:top1|Controller:Controller"
+126. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Vectorial_Register_File:vecRegFile|Mux:mux2"
+127. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Vectorial_Register_File:vecRegFile|Mux:mux1"
+128. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Vectorial_Register_File:vecRegFile|Hot_Bit:hotbit1"
+129. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Mux:mux2"
+130. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Mux:mux1"
+131. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[15].equal_n_bits"
+132. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[14].equal_n_bits"
+133. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[13].equal_n_bits"
+134. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[12].equal_n_bits"
+135. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[11].equal_n_bits"
+136. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[10].equal_n_bits"
+137. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[9].equal_n_bits"
+138. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[8].equal_n_bits"
+139. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[7].equal_n_bits"
+140. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[6].equal_n_bits"
+141. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[5].equal_n_bits"
+142. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[4].equal_n_bits"
+143. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[3].equal_n_bits"
+144. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[2].equal_n_bits"
+145. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[1].equal_n_bits"
+146. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1|Nbit_Equal_Comp:generate_hotbit_outputs[0].equal_n_bits"
+147. Port Connectivity Checks: "top:top1|IDPipe:IDPipe|Register_File:regFile|Hot_Bit:hotbit1"
+148. Port Connectivity Checks: "top:top1|IDPipe:IDPipe"
+149. Port Connectivity Checks: "top:top1|IFPipe:IFPipe|InstMemory:IMem"
+150. Port Connectivity Checks: "top:top1|IFPipe:IFPipe|Adder:PCAdder"
+151. Analysis & Elaboration Messages
+152. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -183,7 +184,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                                 ;
 +-------------------------------+------------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Thu Sep 26 16:53:51 2024          ;
+; Analysis & Elaboration Status ; Successful - Fri Sep 27 01:11:11 2024          ;
 ; Quartus Prime Version         ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                 ; Procesador_Vectorial                           ;
 ; Top-level Entity Name         ; tb_top                                         ;
@@ -1280,6 +1281,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: top:top1|MEMPipe:MEMPipe|rcon:Rcon ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; DEPTH          ; 16    ; Signed Integer                                         ;
+; BITS           ; 32    ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +----------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: top:top1|MEMPipe:MEMPipe|Memory:mem ;
 +----------------+-------+---------------------------------------------------------+
@@ -1296,7 +1308,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                 ;
 +----------------+-------+------------------------------------------------------+
-; DEPTH          ; 3     ; Signed Integer                                       ;
+; DEPTH          ; 4     ; Signed Integer                                       ;
 ; BITS           ; 32    ; Signed Integer                                       ;
 +----------------+-------+------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
@@ -1780,7 +1792,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Thu Sep 26 16:53:41 2024
+    Info: Processing started: Fri Sep 27 01:11:00 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Procesador_Vectorial -c Procesador_Vectorial --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -1872,6 +1884,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file tbs/tb_
     Info (12023): Found entity 1: tb_asignar File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_asignar.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file gf_mul.sv
     Info (12023): Found entity 1: gf_mul File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/gf_mul.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file components/rcon.sv
+    Info (12023): Found entity 1: rcon File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tbs/tb_rcon.sv
+    Info (12023): Found entity 1: tb_rcon File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_rcon.sv Line: 3
 Warning (10222): Verilog HDL Parameter Declaration warning at Hot_Bit.sv(3): Parameter Declaration in module "Hot_Bit" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Hot_Bit.sv Line: 3
 Info (12127): Elaborating entity "tb_top" for the top level hierarchy
 Warning (10175): Verilog HDL warning at tb_top.sv(17): ignoring unsupported system task File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/tbs/tb_top.sv Line: 17
@@ -1884,7 +1900,7 @@ Info (12128): Elaborating entity "Adder" for hierarchy "top:top1|IFPipe:IFPipe|A
 Info (12128): Elaborating entity "Adder1bit" for hierarchy "top:top1|IFPipe:IFPipe|Adder:PCAdder|Adder1bit:firstAdd" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Adder.sv Line: 10
 Info (12128): Elaborating entity "Mux" for hierarchy "top:top1|IFPipe:IFPipe|Mux:PCMux" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv Line: 14
 Info (12128): Elaborating entity "InstMemory" for hierarchy "top:top1|IFPipe:IFPipe|InstMemory:IMem" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/IFPipe.sv Line: 15
-Warning (10850): Verilog HDL warning at InstMemory.sv(14): number of words (3) in memory file does not match the number of elements in the address range [0:1023] File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv Line: 14
+Warning (10850): Verilog HDL warning at InstMemory.sv(14): number of words (4) in memory file does not match the number of elements in the address range [0:1023] File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv Line: 14
 Warning (10030): Net "registers.data_a" at InstMemory.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv Line: 6
 Warning (10030): Net "registers.waddr_a" at InstMemory.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv Line: 6
 Warning (10030): Net "registers.we_a" at InstMemory.sv(6) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/InstMemory.sv Line: 6
@@ -1931,11 +1947,15 @@ Warning (10027): Verilog HDL or VHDL warning at the s_box.sv(14): index expressi
 Warning (10850): Verilog HDL warning at s_box.sv(19): number of words (256) in memory file does not match the number of elements in the address range [0:256] File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv Line: 19
 Warning (10855): Verilog HDL warning at s_box.sv(18): initial value for variable registers should be constant File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv Line: 18
 Warning (10030): Net "registers[255..0]" at s_box.sv(10) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/s_box.sv Line: 10
-Info (12128): Elaborating entity "Memory" for hierarchy "top:top1|MEMPipe:MEMPipe|Memory:mem" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv Line: 20
+Info (12128): Elaborating entity "rcon" for hierarchy "top:top1|MEMPipe:MEMPipe|rcon:Rcon" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv Line: 18
+Warning (10850): Verilog HDL warning at rcon.sv(16): number of words (10) in memory file does not match the number of elements in the address range [0:64] File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv Line: 16
+Warning (10030): Net "registers.data_a" at rcon.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv Line: 7
+Warning (10030): Net "registers.waddr_a" at rcon.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv Line: 7
+Warning (10030): Net "registers.we_a" at rcon.sv(7) has no driver or initial value, using a default initial value '0' File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/rcon.sv Line: 7
+Info (12128): Elaborating entity "Memory" for hierarchy "top:top1|MEMPipe:MEMPipe|Memory:mem" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/MEMPipe.sv Line: 25
 Warning (10850): Verilog HDL warning at Memory.sv(21): number of words (7) in memory file does not match the number of elements in the address range [0:1023] File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Memory.sv Line: 21
 Info (12128): Elaborating entity "MEM_WBReg" for hierarchy "top:top1|MEM_WBReg:MEM_WBReg" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv Line: 81
 Info (12128): Elaborating entity "WBPipe" for hierarchy "top:top1|WBPipe:WBPipe" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/top.sv Line: 83
-Info (12128): Elaborating entity "Mux" for hierarchy "top:top1|WBPipe:WBPipe|Mux:MuxWD" File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/top/WBPipe.sv Line: 13
 Warning (12010): Port "ordered port 0" on the entity instantiation of "sum" is connected to a signal of width 8. The formal width of the signal in the module is 64.  The extra bits will be driven by GND. File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv Line: 22
 Warning (12010): Port "ordered port 1" on the entity instantiation of "sum" is connected to a signal of width 8. The formal width of the signal in the module is 64.  The extra bits will be driven by GND. File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv Line: 22
 Warning (12030): Port "ordered port 3" on the entity instantiation of "sum" is connected to a signal of width 8. The formal width of the signal in the module is 64.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv Line: 22
@@ -1947,11 +1967,11 @@ Warning (12010): Port "ordered port 1" on the entity instantiation of "sum" is c
 Warning (12030): Port "ordered port 3" on the entity instantiation of "sum" is connected to a signal of width 8. The formal width of the signal in the module is 64.  The extra bits will be left dangling without any fan-out logic. File: C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/components/Alu.sv Line: 22
 Warning (12241): 11 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file C:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/output_files/Procesador_Vectorial.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 34 warnings
-    Info: Peak virtual memory: 4816 megabytes
-    Info: Processing ended: Thu Sep 26 16:53:51 2024
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:06
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 38 warnings
+    Info: Peak virtual memory: 4824 megabytes
+    Info: Processing ended: Fri Sep 27 01:11:11 2024
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:10
 
 
 +--------------------------------------------+

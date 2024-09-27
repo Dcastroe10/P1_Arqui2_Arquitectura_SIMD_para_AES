@@ -3,11 +3,7 @@ module gf_mul(
 	input logic		[7:0] index1,
 	input logic		[7:0] index2,
 	input logic		[7:0] index3,
-	
 	input logic		[1:0] row,
-	
-	
-	
 	output logic	[7:0] result
 );
 	

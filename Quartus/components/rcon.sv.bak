@@ -1,0 +1,19 @@
+module rcon #(parameter DEPTH = 64, BITS = 32) (
+    input wire [7:0] address1,
+    output reg [BITS-1:0] readData
+);
+
+    // Memoria de 8 bits
+    reg [7:0] registers [DEPTH*(BITS/8):0];
+
+    // Concatenar los datos de las 4 direcciones
+    always_comb begin
+        readData = {registers[address1],24'b0};
+    end
+
+    // Inicialización de la memoria desde un archivo .dat
+    initial begin
+        $readmemh("rcon.dat", registers);
+    end
+
+endmodule

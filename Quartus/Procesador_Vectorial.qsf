@@ -64,6 +64,16 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_top -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_s_box -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_s_box
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_s_box -section_id tb_s_box
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_asignar -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_asignar
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_asignar -section_id tb_asignar
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_Multi_Alu -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_Multi_Alu
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_Multi_Alu -section_id tb_Multi_Alu
+set_global_assignment -name EDA_TEST_BENCH_NAME tb_rcon -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_rcon
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_rcon -section_id tb_rcon
+set_global_assignment -name LICENSE_FILE rcon.dat
 set_global_assignment -name LICENSE_FILE sbox.dat
 set_global_assignment -name LICENSE_FILE ram.dat
 set_global_assignment -name SYSTEMVERILOG_FILE components/Alus.sv
@@ -110,13 +120,9 @@ set_global_assignment -name SYSTEMVERILOG_FILE components/tb_s_box.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Multi_Alu.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tbs/asignar.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_asignar.sv
-set_global_assignment -name EDA_TEST_BENCH_NAME tb_asignar -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_asignar
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_asignar -section_id tb_asignar
 set_global_assignment -name SYSTEMVERILOG_FILE gf_mul.sv
-set_global_assignment -name EDA_TEST_BENCH_NAME tb_Multi_Alu -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_Multi_Alu
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_Multi_Alu -section_id tb_Multi_Alu
+set_global_assignment -name SYSTEMVERILOG_FILE components/rcon.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_rcon.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE top/Controller.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/Datapath.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/EX_MEMReg.sv -section_id tb_top
@@ -153,6 +159,7 @@ set_global_assignment -name EDA_TEST_BENCH_FILE memory.dat -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE output.bin -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE ram.dat -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE sbox.dat -section_id tb_top
+set_global_assignment -name EDA_TEST_BENCH_FILE rcon.dat -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE components/tb_s_box.sv -section_id tb_s_box
 set_global_assignment -name EDA_TEST_BENCH_FILE components/s_box.sv -section_id tb_s_box
 set_global_assignment -name EDA_TEST_BENCH_FILE datos_aleatorios_20bits.dat -section_id tb_s_box
@@ -160,6 +167,9 @@ set_global_assignment -name EDA_TEST_BENCH_FILE tbs/asignar.sv -section_id tb_as
 set_global_assignment -name EDA_TEST_BENCH_FILE tbs/tb_asignar.sv -section_id tb_asignar
 set_global_assignment -name EDA_TEST_BENCH_FILE tbs/tb_Multi_Alu.sv -section_id tb_Multi_Alu
 set_global_assignment -name EDA_TEST_BENCH_FILE components/Multi_Alu.sv -section_id tb_Multi_Alu
+set_global_assignment -name EDA_TEST_BENCH_FILE tbs/tb_rcon.sv -section_id tb_rcon
+set_global_assignment -name EDA_TEST_BENCH_FILE rcon.dat -section_id tb_rcon
+set_global_assignment -name EDA_TEST_BENCH_FILE components/rcon.sv -section_id tb_rcon
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

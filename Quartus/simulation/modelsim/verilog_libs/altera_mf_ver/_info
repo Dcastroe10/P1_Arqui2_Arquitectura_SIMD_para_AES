@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dC:/Users/joedu/OneDrive/Escritorio/procesador_vectorial/P1_Arqui2_Arquitectura_SIMD_para_AES/Quartus/simulation/modelsim
 va_graycounter
-Z1 !s110 1727391267
+Z1 !s110 1727421085
 !i10b 1
 !s100 dbSQenUhE^>zo5H5zAI>X2
 Ih0H`IoVd?ckECfX:8UkUE3
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1727391266.000000
+Z7 !s108 1727421084.000000
 Z8 !s107 d:/quartus/quartus/eda/sim_lib/altera_mf.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|altera_mf_ver|d:/quartus/quartus/eda/sim_lib/altera_mf.v|
 !i113 1
@@ -366,7 +366,7 @@ R9
 R10
 R11
 vALTERA_DEVICE_FAMILIES
-Z12 !s110 1727391266
+Z12 !s110 1727421084
 !i10b 1
 !s100 Ie0_`X3Yi6=65^n?0c5aN3
 I35Sg@`z31`nQB5N394<U<0
@@ -537,7 +537,7 @@ R9
 R10
 R11
 valtlvds_rx
-R1
+R12
 !i10b 1
 !s100 5>V0J2VHk1QIL0Kb^`oOk3
 IzPlM:jWH?1@d]=YT47W@W2
@@ -642,7 +642,7 @@ R9
 R10
 R11
 valtpll
-R1
+R12
 !i10b 1
 !s100 [SX62M8C0J@z:hfdAbBD;3
 I8?c<ViNB3Z`ik<S9G?<gV3
@@ -1596,7 +1596,7 @@ R9
 R10
 R11
 vstratix_lvds_rx
-R1
+R12
 !i10b 1
 !s100 iWi`6Rm2^8][31l`]o]GU1
 I[oGFlNd4kh41f^MoJRQ=T1

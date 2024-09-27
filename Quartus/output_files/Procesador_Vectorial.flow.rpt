@@ -1,5 +1,5 @@
 Flow report for Procesador_Vectorial
-Thu Sep 26 16:53:51 2024
+Fri Sep 27 01:11:11 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Thu Sep 26 16:53:51 2024          ;
+; Flow Status                 ; Successful - Fri Sep 27 01:11:11 2024          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; Procesador_Vectorial                           ;
 ; Top-level Entity Name       ; tb_top                                         ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 09/26/2024 16:53:41  ;
+; Start date & time ; 09/27/2024 01:11:00  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; Procesador_Vectorial ;
 +-------------------+----------------------+
@@ -74,11 +74,12 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+----------------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value        ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+----------------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 79846615792679.172739122125576         ; --                   ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 79846615792679.172742106011436         ; --                   ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_s_box                          ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_top                            ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_Multi_Alu                      ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_asignar                        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_rcon                           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                   ; --          ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                   ; --          ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                    ; --                   ; --          ; eda_board_design_signal_integrity ;
@@ -126,18 +127,24 @@ https://fpgasoftware.intel.com/eula.
 ; EDA_TEST_BENCH_FILE                  ; output.bin                             ; --                   ; --          ; tb_top                            ;
 ; EDA_TEST_BENCH_FILE                  ; ram.dat                                ; --                   ; --          ; tb_top                            ;
 ; EDA_TEST_BENCH_FILE                  ; sbox.dat                               ; --                   ; --          ; tb_top                            ;
+; EDA_TEST_BENCH_FILE                  ; rcon.dat                               ; --                   ; --          ; tb_top                            ;
 ; EDA_TEST_BENCH_FILE                  ; tbs/tb_Multi_Alu.sv                    ; --                   ; --          ; tb_Multi_Alu                      ;
 ; EDA_TEST_BENCH_FILE                  ; components/Multi_Alu.sv                ; --                   ; --          ; tb_Multi_Alu                      ;
 ; EDA_TEST_BENCH_FILE                  ; tbs/asignar.sv                         ; --                   ; --          ; tb_asignar                        ;
 ; EDA_TEST_BENCH_FILE                  ; tbs/tb_asignar.sv                      ; --                   ; --          ; tb_asignar                        ;
+; EDA_TEST_BENCH_FILE                  ; tbs/tb_rcon.sv                         ; --                   ; --          ; tb_rcon                           ;
+; EDA_TEST_BENCH_FILE                  ; rcon.dat                               ; --                   ; --          ; tb_rcon                           ;
+; EDA_TEST_BENCH_FILE                  ; components/rcon.sv                     ; --                   ; --          ; tb_rcon                           ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_s_box                               ; --                   ; --          ; tb_s_box                          ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_top                                 ; --                   ; --          ; tb_top                            ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_Multi_Alu                           ; --                   ; --          ; tb_Multi_Alu                      ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_asignar                             ; --                   ; --          ; tb_asignar                        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_rcon                                ; --                   ; --          ; tb_rcon                           ;
 ; EDA_TEST_BENCH_NAME                  ; tb_top                                 ; --                   ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; tb_s_box                               ; --                   ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; tb_asignar                             ; --                   ; --          ; eda_simulation                    ;
 ; EDA_TEST_BENCH_NAME                  ; tb_Multi_Alu                           ; --                   ; --          ; eda_simulation                    ;
+; EDA_TEST_BENCH_NAME                  ; tb_rcon                                ; --                   ; --          ; eda_simulation                    ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --                   ; --          ; eda_simulation                    ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --                   ; --          ; --                                ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --                   ; --          ; --                                ;
@@ -156,8 +163,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 4816 MB             ; 00:00:06                           ;
-; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:06                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4824 MB             ; 00:00:10                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:10                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
