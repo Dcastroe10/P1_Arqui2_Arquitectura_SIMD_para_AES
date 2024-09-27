@@ -26,6 +26,7 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
         .OpCode(Instruction[19:15]),
         .InstructionP1(Instruction[4:0]),
         .InstructionP2(Instruction[9:0]),
+		  
         .Imm(Imm));
 		  
 	 assign BranchAddr = Imm;

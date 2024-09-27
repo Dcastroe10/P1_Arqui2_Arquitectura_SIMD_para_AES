@@ -55,7 +55,7 @@ module top(clk, rst);
 						  .colread(ID_colread),.colwrite(WB_colwrite),.columna(WB_columna),.ID_columna(ID_columna));
     
     Controller Controller(.Instruction(ID_Instruction), .ALUControl(ID_ALUControl), .RegWrite(ID_RegWrite), .MemWrite(ID_MemWrite), .Branch(CtrBranch), 
-								  .MemToReg(ID_MemToReg), .ALUScr(ID_ALUScr), .VRegWrite(ID_VRegWrite),.colread(ID_colread),.colwrite(colwrite));
+								  .MemToReg(ID_MemToReg), .ALUScr(ID_ALUScr), .VRegWrite(ID_VRegWrite),.colread(ID_colread),.colwrite(ID_colwrite));
     assign Branch = CtrBranch && ID_Equal;
 	 
 	 assign Controles [0] = {ID_MemWrite,ID_RegWrite,ID_VRegWrite};
@@ -64,7 +64,7 @@ module top(clk, rst);
 	 Mux #(2,3) FlushMux(.Data_arr(Controles),.selector(Flush),.Out(MuxControllerOut));
 
 
-    ID_EXReg ID_EXReg(.clk(clk), .ID_data1(ID_data1), .ID_data2(ID_data2), .ID_Imm(ID_Imm),.ID_colwrite(EX_colwrite),.ID_columna(ID_columna),
+    ID_EXReg ID_EXReg(.clk(clk), .ID_data1(ID_data1), .ID_data2(ID_data2), .ID_Imm(ID_Imm),.ID_colwrite(ID_colwrite),.ID_columna(ID_columna),
                     .ID_rd(ID_rd), .ID_rs1(ID_rs1), .ID_rs2(ID_rs2), .ID_ALUControl(ID_ALUControl),
                     .ID_RegWrite(MuxControllerOut[1]), .ID_MemWrite(MuxControllerOut[2]), .ID_MemToReg(ID_MemToReg), .ID_ALUScr(ID_ALUScr),.ID_VRegWrite(MuxControllerOut[0]),
                     .EX_data1(EX_data1), .EX_data2(EX_data2), .EX_Imm(EX_Imm),

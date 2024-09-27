@@ -21,8 +21,8 @@ module Alu #(parameter BITS = 64) (SrcA, SrcB, ALUControl, ALUResult, ALUFlags);
 
 	Adder sum(SrcA,mux2_output,ALUControl[0],Data_arr_mux4[0],cout);
 
-    assign Data_arr_mux4[1] = Data_arr_mux4[0];
-	assign Data_arr_mux4[2] = SrcA * SrcB;
+   assign Data_arr_mux4[1] = Data_arr_mux4[0];
+	assign Data_arr_mux4[2] = SrcA;
 	assign Data_arr_mux4[3] = SrcA ^ SrcB;
 
     // assign Data_arr_mux4[0] = sum_output;

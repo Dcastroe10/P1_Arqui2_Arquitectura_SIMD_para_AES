@@ -19,6 +19,7 @@
 	
 	reg [31:0] result_alu1;
 	reg [31:0] result_alu2;
+	reg [31:0] result_alu3;
 	
 
 	// Separar cada cuarto de a y b
@@ -44,6 +45,15 @@
 	gf_mul gf2(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b10),.result(result_alu2[15:8]));
 	gf_mul gf3(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b11),.result(result_alu2[7:0]));
 	
-	assign result_alu = (select == 3'b101) ? result_alu2 : result_alu1;
+	assign result_alu3 = (a << (b*8)) | (a >> (32 - (b*8)));
+	
+	always_comb begin
+    case (select)
+        3'b101: result_alu = result_alu2;
+        3'b100: result_alu = result_alu3;
+        default: result_alu = result_alu1;
+    endcase
+end
+
 	
 endmodule

@@ -67,18 +67,6 @@ module Decoder (OpCode, rd_type, rs1_type, rs2_type, ALUControl, RegWrite, MemWr
 					 colread =1'b0;
 					 colwrite =1'b0;
             end
-				5'b10010: begin // vrd = immma
-                ALUControl = 3'b000;
-                RegWrite = 1'b0;
-                MemWrite = 1'b0;
-                Branch = 1'b0;
-                MemToReg = 2'b00;
-                ALUScr = 1'b1;
-					 VRegWrite = 1'b1;
-					 
-					 colread =1'b0;
-					 colwrite =1'b0;
-            end
 				5'b11100: begin // vrd=vrs1^vrs2
                 ALUControl = 3'b011;
                 RegWrite = 1'b0;
@@ -197,13 +185,37 @@ module Decoder (OpCode, rd_type, rs1_type, rs2_type, ALUControl, RegWrite, MemWr
 					 colread =1'b1;
 					 colwrite =1'b0;
             end
+				5'b10010: begin // instruccion especial escribir columna
+                ALUControl = 3'b010;
+                RegWrite = 1'b0;
+                MemWrite = 1'b0;
+                Branch = 1'b0;
+                MemToReg = 2'b00;
+                ALUScr = 1'b0;
+					 VRegWrite = 1'b1;
+					 
+					 colread =1'b0;
+					 colwrite =1'b1;
+            end
+				5'b11101: begin // shift
+                ALUControl = 3'b100;
+                RegWrite = 1'b0;
+                MemWrite = 1'b0;
+                Branch = 1'b0;
+                MemToReg = 2'b00;
+                ALUScr = 1'b0;
+					 VRegWrite = 1'b1;
+					 
+					 colread =1'b0;
+					 colwrite =1'b0;
+            end
             default: begin
                 ALUControl = 3'b000;
                 RegWrite = 1'b0;
                 MemWrite = 1'b0;
                 Branch = 1'b0;
                 MemToReg = 2'b00;
-                ALUScr = 1'b0;
+                ALUScr = 1'b1;
 					 VRegWrite = 1'b0;
 					 
 					 colread =1'b0;
