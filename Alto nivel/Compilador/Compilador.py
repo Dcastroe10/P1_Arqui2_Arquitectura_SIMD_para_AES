@@ -27,7 +27,7 @@ def open_file_dialog():
                 if result:
                     opcode, operands = result
                     binary_opcode = get_opcode(opcode)
-                    binary_operands = get_operands(operands)
+                    binary_operands = get_operands(operands, opcode)
                     binary_instruction = binary_opcode + binary_operands
                     if len(binary_instruction) < 20:
                         binary_instruction = binary_instruction.ljust(20, '0')
@@ -53,12 +53,13 @@ def open_file_dialog():
                 print("Archivo con instrucciones en binario creado con exito")
 
 def parse_instruction(instruction, lables):
-    # Expresion regular para operaciones aritmeticas
-    arithmetic_regex = r'(\b(?:MIX|SUBS|ADD)\b)\s+((?:V|R)\d+),\s*((?:V|R)\d+),\s*((?:V|R)\d+)'
+    # Expresion regular para operaciones aritmeticas escalares
+    arithmetic_scalar_regex = r'(\b(?:ADD)\b)\s+((?:R)\d+),\s*((?:R)\d+),\s*((?:V|R)\d+)'
+
+    # Expresion regular para operaciones aritmeticas vectoriales
+    arithmetic_vector_regex = r'(\b(?:MIX|SUBS)\b)\s+((?:V)\d+),\s*((?:V)\d+)\b'
 
     # Expresion regular para instrucciones de salto
-    # r'\b(MOVR\b)\s+(R\d+),\s+(R\d+|#-?\d+)\b'
-    # r'(\b(?:BEQ|B)\b)\s+([^\s]+)'
     branch_eq_regex = r'\b(BEQ\b)\s+(R\d+),\s+(R\d+),\s+([^\s]+)\b'
 
     # Expresion regular para expresion de salto obligatorio
@@ -68,7 +69,7 @@ def parse_instruction(instruction, lables):
     xor_regex = r'(\b(?:XOR)\b)\s+((?:V|R)\d+),\s*((?:V|R)\d+),\s*((?:V|R)\d+)'
 
     # Expresion regular para logical shift left vectorial
-    lshift_regex = r'(\b(?:LSH)\b)\s+((?:V)\d+),\s*((?:V)\d+)'
+    lshift_regex = r'(\b(?:CLSH)\b)\s+((?:V)\d+),\s*((?:V)\d+),\s+(#-?\d+)\b'
 
     # Expresion regular para datos escalares
     escalar_data_regex = r'(\b(?:STR|LDR)\b)\s+((?:V|R)\d+)\[(R\d+)\]'
@@ -76,10 +77,22 @@ def parse_instruction(instruction, lables):
     # Expresion regular para datos vectoriales
     vectorial_data_regex = r'(\b(?:VSTR|VLDR)\b)\s+((?:V|R)\d+)\[(R\d+)\]'
 
+    # Expresion regular para rcon
+    rcon_data_regex = r'(\b(?:RCON)\b)\s+((?:V)\d+),\s+((?:R)\d+)\b'
+
     # Expresion para mov de registro escalar
     movr_regex = r'\b(MOVR\b)\s+(R\d+),\s+(R\d+|#-?\d+)\b'
 
-    match = re.match(arithmetic_regex, instruction)
+    # Expresion regular para lectura o escritura de columnas
+    read_write_col_regex = r'(\b(?:READ_COL|WRITE_COL)\b)\s+((?:V)\d+),\s+((?:V)\d+),\s+(#-?\d+)\b'
+
+    match = re.match(arithmetic_scalar_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        return opcode, operands
+    
+    match = re.match(arithmetic_vector_regex, instruction)
     if match:
         opcode = match.group(1)
         operands = match.groups()[1:]
@@ -125,6 +138,18 @@ def parse_instruction(instruction, lables):
         operands = match.groups()[1:]
         return opcode, operands
     
+    match = re.match(read_write_col_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        return opcode, operands
+    
+    match =re.match(rcon_data_regex, instruction)
+    if match:
+        opcode = match.group(1)
+        operands = match.groups()[1:]
+        return opcode, operands
+    
     match = re.match(vectorial_data_regex, instruction)
     if match:
         opcode = match.group(1)
@@ -160,7 +185,7 @@ def get_opcode(opcode):
     if opcode == "SUBS":
         return "11110"
     
-    if opcode == "LSH":
+    if opcode == "CLSH":
         return "11101"
     
     if opcode == "XOR":
@@ -190,13 +215,31 @@ def get_opcode(opcode):
     if opcode == "BEQ":
         return "10100"
     
+    if opcode == "READ_COL":
+        return "10011"
+    
+    if opcode == "WRITE_COL":
+        return "10010"
+    
+    if opcode == "RCON":
+        return "10001"
+    
     global compiler_error
     compiler_error = True
     print("El operador " + opcode + " no existe en el ISA")
     return "00000"
 
-def get_operands(operands):
-    print(operands)
+def get_operands(operands, opcode):
+    len_imma = 0
+    if opcode == "CLSH":
+        len_imma = 5
+    
+    if opcode == "MOVR":
+        len_imma = 10
+
+    if opcode == "READ_COL" or opcode == "WRITE_COL":
+        len_imma = 2
+    
     if len(operands) == 1:
         for op in operands:
             branch = get_branch(op)
@@ -229,7 +272,7 @@ def get_operands(operands):
                 type = "1"
             
             if op.startswith('#'):
-                bin_op = bin(int(op[1:]))[2:].zfill(10)
+                bin_op = bin(int(op[1:]))[2:].zfill(len_imma)
                 binary_operands += bin_op
             else:
                 bin_op = bin(int(op[1:]))[2:].zfill(4)

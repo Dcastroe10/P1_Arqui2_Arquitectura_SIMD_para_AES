@@ -1,1 +1,1 @@
-cmp r2, r1
+write_col v4, v10, #3
