@@ -1,12 +1,12 @@
 
-module Controller(Instruction, ALUControl, RegWrite, MemWrite, Branch, MemToReg, ALUScr,VRegWrite);
+module Controller(Instruction, ALUControl, RegWrite, MemWrite, Branch, MemToReg, ALUScr,VRegWrite,colread,colwrite);
     parameter BITS = 20;
     input wire [BITS-1:0] Instruction;
 
     //output reg [0:63] Imm;
     output reg [0:1] MemToReg;
 	 output reg [2:0] ALUControl;
-    output reg RegWrite, MemWrite, Branch, VRegWrite;
+    output reg RegWrite, MemWrite, Branch, VRegWrite,colread,colwrite;
     output reg ALUScr;
 
     Decoder decoder(
@@ -20,7 +20,9 @@ module Controller(Instruction, ALUControl, RegWrite, MemWrite, Branch, MemToReg,
         .Branch(Branch),
         .MemToReg(MemToReg),
         .ALUScr(ALUScr),
-		  .VRegWrite(VRegWrite));
+		  .VRegWrite(VRegWrite),
+		  .colread(colread),
+		  .colwrite(colwrite));
 
 
 endmodule

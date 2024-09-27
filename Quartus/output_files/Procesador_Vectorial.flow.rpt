@@ -1,5 +1,5 @@
 Flow report for Procesador_Vectorial
-Fri Sep 27 01:11:11 2024
+Fri Sep 27 04:24:22 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-----------------------------+------------------------------------------------+
-; Flow Status                 ; Successful - Fri Sep 27 01:11:11 2024          ;
+; Flow Status                 ; Successful - Fri Sep 27 04:24:22 2024          ;
 ; Quartus Prime Version       ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name               ; Procesador_Vectorial                           ;
 ; Top-level Entity Name       ; tb_top                                         ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+----------------------+
 ; Option            ; Setting              ;
 +-------------------+----------------------+
-; Start date & time ; 09/27/2024 01:11:00  ;
+; Start date & time ; 09/27/2024 04:24:12  ;
 ; Main task         ; Compilation          ;
 ; Revision Name     ; Procesador_Vectorial ;
 +-------------------+----------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------+----------------------------------------+----------------------+-------------+-----------------------------------+
 ; Assignment Name                      ; Value                                  ; Default Value        ; Entity Name ; Section Id                        ;
 +--------------------------------------+----------------------------------------+----------------------+-------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID                ; 79846615792679.172742106011436         ; --                   ; --          ; --                                ;
+; COMPILER_SIGNATURE_ID                ; 79846615792679.172743265227588         ; --                   ; --          ; --                                ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_s_box                          ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_top                            ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --                   ; --          ; tb_Multi_Alu                      ;
@@ -163,8 +163,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4824 MB             ; 00:00:10                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:10                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4824 MB             ; 00:00:08                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:08                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

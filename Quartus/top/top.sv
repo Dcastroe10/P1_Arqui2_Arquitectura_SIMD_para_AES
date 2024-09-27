@@ -15,7 +15,7 @@ module top(clk, rst);
     wire [31:0] ID_data1, ID_data2; 
 	 wire [31:0] ID_Imm;
     wire [4:0] ID_rd, ID_rs1, ID_rs2;
-    wire ID_RegWrite, ID_Equal, ID_MemWrite,ID_ALUScr, ID_VRegWrite;
+    wire ID_RegWrite, ID_Equal, ID_MemWrite,ID_ALUScr, ID_VRegWrite,ID_colread,ID_colwrite;
     wire [1:0] ID_MemToReg;
 	 wire [2:0] ID_ALUControl;
 
@@ -40,6 +40,9 @@ module top(clk, rst);
 	 
 	 wire [2:0] Controles [1:0];
 	 wire [2:0] MuxControllerOut;
+	 
+	 wire [1:0] ID_columna,EX_columna,MEM_columna,WB_columna;
+	 wire EX_colwrite,MEM_colwrite,WB_colwrite;
 
     IFPipe IFPipe(.clk(clk), .rst(rst), .BranchAddr(BranchAddr), .Branch(Branch), .PCWrite(PCWrite), .PC(IF_PC), .Instruction(IF_Instruction));
 
@@ -48,9 +51,11 @@ module top(clk, rst);
     HazardUnit HazardUnit(.Branch(Branch), .Flush(Flush), .IF_IDWrite(IF_IDWrite), .PC_Write(PCWrite));
 
     IDPipe IDPipe(.clk(clk), .writeAddr(WB_rd), .writeData(WB_data), .Instruction(ID_Instruction), .PC(ID_PC), .RegWrite(WB_RegWrite),
-                    .BranchAddr(BranchAddr), .Equal(ID_Equal), .data1(ID_data1), .data2(ID_data2), .Imm(ID_Imm), .rd(ID_rd), .rs1(ID_rs1), .rs2(ID_rs2),.VRegWrite(WB_VRegWrite));
+                    .BranchAddr(BranchAddr), .Equal(ID_Equal), .data1(ID_data1), .data2(ID_data2), .Imm(ID_Imm), .rd(ID_rd), .rs1(ID_rs1), .rs2(ID_rs2),.VRegWrite(WB_VRegWrite),
+						  .colread(ID_colread),.colwrite(WB_colwrite),.columna(WB_columna),.ID_columna(ID_columna));
     
-    Controller Controller(.Instruction(ID_Instruction), .ALUControl(ID_ALUControl), .RegWrite(ID_RegWrite), .MemWrite(ID_MemWrite), .Branch(CtrBranch), .MemToReg(ID_MemToReg), .ALUScr(ID_ALUScr), .VRegWrite(ID_VRegWrite));
+    Controller Controller(.Instruction(ID_Instruction), .ALUControl(ID_ALUControl), .RegWrite(ID_RegWrite), .MemWrite(ID_MemWrite), .Branch(CtrBranch), 
+								  .MemToReg(ID_MemToReg), .ALUScr(ID_ALUScr), .VRegWrite(ID_VRegWrite),.colread(ID_colread),.colwrite(colwrite));
     assign Branch = CtrBranch && ID_Equal;
 	 
 	 assign Controles [0] = {ID_MemWrite,ID_RegWrite,ID_VRegWrite};
@@ -59,26 +64,27 @@ module top(clk, rst);
 	 Mux #(2,3) FlushMux(.Data_arr(Controles),.selector(Flush),.Out(MuxControllerOut));
 
 
-    ID_EXReg ID_EXReg(.clk(clk), .ID_data1(ID_data1), .ID_data2(ID_data2), .ID_Imm(ID_Imm),
+    ID_EXReg ID_EXReg(.clk(clk), .ID_data1(ID_data1), .ID_data2(ID_data2), .ID_Imm(ID_Imm),.ID_colwrite(EX_colwrite),.ID_columna(ID_columna),
                     .ID_rd(ID_rd), .ID_rs1(ID_rs1), .ID_rs2(ID_rs2), .ID_ALUControl(ID_ALUControl),
                     .ID_RegWrite(MuxControllerOut[1]), .ID_MemWrite(MuxControllerOut[2]), .ID_MemToReg(ID_MemToReg), .ID_ALUScr(ID_ALUScr),.ID_VRegWrite(MuxControllerOut[0]),
                     .EX_data1(EX_data1), .EX_data2(EX_data2), .EX_Imm(EX_Imm),
                     .EX_rd(EX_rd), .EX_rs1(EX_rs1), .EX_rs2(EX_rs2), .EX_ALUControl(EX_ALUControl),
-                    .EX_RegWrite(EX_RegWrite), .EX_MemWrite(EX_MemWrite), .EX_MemToReg(EX_MemToReg), .EX_ALUScr(EX_ALUScr),.EX_VRegWrite(EX_VRegWrite));
+                    .EX_RegWrite(EX_RegWrite), .EX_MemWrite(EX_MemWrite), .EX_MemToReg(EX_MemToReg), .EX_ALUScr(EX_ALUScr),.EX_VRegWrite(EX_VRegWrite),
+						  .EX_colwrite(EX_colwrite),.EX_columna(EX_columna));
 
 
     EXPipe EXPipe(.data1(EX_data1), .data2(EX_data2), .Imm(EX_Imm), .Fw1(MEM_MemData), .Fw2(MEM_ALUResult), .Fw3(WB_data), .SelFwA(SelFwA), .SelFwB(SelFwB), .ALUScr(EX_ALUScr), .ALUControl(EX_ALUControl), .ALUResult(EX_ALUResult), .WriteData(EX_WriteData), .ALU_Selector(EX_rd[4]));
 
-    EX_MEMReg EX_MEMReg(.clk(clk), .EX_ALUResult(EX_ALUResult), .EX_WriteData(EX_WriteData), .EX_rd(EX_rd), .EX_RegWrite(EX_RegWrite), .EX_MemToReg(EX_MemToReg), .EX_MemWrite(EX_MemWrite),.EX_VRegWrite(EX_VRegWrite),
-                        .MEM_ALUResult(MEM_ALUResult), .MEM_WriteData(MEM_WriteData), .MEM_rd(MEM_rd), .MEM_RegWrite(MEM_RegWrite), .MEM_MemToReg(MEM_MemToReg), .MEM_MemWrite(MEM_MemWrite),.MEM_VRegWrite(MEM_VRegWrite));
+    EX_MEMReg EX_MEMReg(.clk(clk), .EX_ALUResult(EX_ALUResult), .EX_WriteData(EX_WriteData), .EX_rd(EX_rd), .EX_RegWrite(EX_RegWrite), .EX_MemToReg(EX_MemToReg), .EX_MemWrite(EX_MemWrite),.EX_VRegWrite(EX_VRegWrite), .EX_colwrite(EX_colwrite), .EX_columna(EX_columna),
+                        .MEM_ALUResult(MEM_ALUResult), .MEM_WriteData(MEM_WriteData), .MEM_rd(MEM_rd), .MEM_RegWrite(MEM_RegWrite), .MEM_MemToReg(MEM_MemToReg), .MEM_MemWrite(MEM_MemWrite),.MEM_VRegWrite(MEM_VRegWrite),.MEM_colwrite(MEM_colwrite), .MEM_columna(MEM_columna));
 
 
     Fordwarding_Unit ForwardUnit(.rs1(EX_rs1), .rs2(EX_rs2), .MEM_rd(MEM_rd), .WB_rd(WB_rd), .MEM_RegWrite(MEM_RegWrite), .MEM_VRegWrite(MEM_VRegWrite), .WB_RegWrite(WB_RegWrite), .WB_VRegWrite(WB_VRegWrite), .MemToReg(MEM_MemToReg), .FwASel(SelFwA), .FwBSel(SelFwB));
 
     MEMPipe MEMPipe(.clk(clk), .ALUResult(MEM_ALUResult), .WriteData(MEM_WriteData), .MemWrite(MEM_MemWrite), .MemData(MEM_MemData),.SBoxData(MEM_sbox),.rconData(MEM_rcon));
 
-    MEM_WBReg MEM_WBReg(.clk(clk), .MEM_MemData(MEM_MemData), .MEM_ALUResult(MEM_ALUResult), .MEM_rd(MEM_rd), .MEM_MemToReg(MEM_MemToReg), .MEM_RegWrite(MEM_RegWrite),.MEM_VRegWrite(MEM_VRegWrite),.MEM_sbox(MEM_sbox),.MEM_rcon(MEM_rcon),
-                        .WB_MemData(WB_MemData), .WB_ALUResult(WB_ALUResult), .WB_rd(WB_rd), .WB_MemToReg(WB_MemToReg), .WB_RegWrite(WB_RegWrite),.WB_VRegWrite(WB_VRegWrite), .WB_sbox(WB_sbox),.WB_rcon(WB_rcon));
+    MEM_WBReg MEM_WBReg(.clk(clk), .MEM_MemData(MEM_MemData), .MEM_ALUResult(MEM_ALUResult), .MEM_rd(MEM_rd), .MEM_MemToReg(MEM_MemToReg), .MEM_RegWrite(MEM_RegWrite),.MEM_VRegWrite(MEM_VRegWrite),.MEM_sbox(MEM_sbox),.MEM_rcon(MEM_rcon),.MEM_colwrite(MEM_colwrite), .MEM_columna(MEM_columna),
+                        .WB_MemData(WB_MemData), .WB_ALUResult(WB_ALUResult), .WB_rd(WB_rd), .WB_MemToReg(WB_MemToReg), .WB_RegWrite(WB_RegWrite),.WB_VRegWrite(WB_VRegWrite), .WB_sbox(WB_sbox),.WB_rcon(WB_rcon),.WB_colwrite(WB_colwrite), .WB_columna(WB_columna));
 
     WBPipe WBPipe(.MemData(WB_MemData), .ALUResult(WB_ALUResult), .sbox(WB_sbox), .rcon(WB_rcon),.MemToReg(WB_MemToReg), .WriteData(WB_data));
 

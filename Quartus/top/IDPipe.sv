@@ -1,11 +1,14 @@
 
-module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr, Equal, data1, data2, Imm, rd, rs1, rs2,VRegWrite);
+module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr, Equal, data1, data2, Imm, rd, rs1, rs2,VRegWrite,colread,colwrite,columna,ID_columna);
 
     input wire [20:0] Instruction;
     input wire [11:0] PC;
     input wire RegWrite, clk, VRegWrite;
     input wire [3:0] writeAddr;
     input wire [31:0] writeData;
+	 input wire colread,colwrite;
+	 input wire [1:0]columna;
+	 output reg [1:0] ID_columna;
     output reg [11:0] BranchAddr;
     output reg Equal;
 	 output reg [31:0] data1, data2;
@@ -50,7 +53,7 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
         .read1(r_data1),
         .read2(r_data2));
 		  
-	 Vectorial_Register_File vecRegFile(
+	 /*Vectorial_Register_File vecRegFile(
 			.clk(clk),
 			.address1(rs1[3:0]),
 			.address2(rs2[3:0]),
@@ -58,7 +61,21 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
 			.writeData(writeData),
 			.writeEn(VRegWrite),
 			.read1(v_data1),
-			.read2(v_data2));
+			.read2(v_data2));*/
+			
+	 RegistroVec rvec (
+    .fila1(rs1[3:0]),       
+	 .fila2(rs2[3:0]),
+	 .writeAddr(writeAddr),
+    .columnar(Imm[1:0]),         // Selector de columna para lectura/escritura
+    .columnaw(columna),
+	 .data_in1(writeData),        // Entrada de datos (32 bits)
+    .wr_en(VRegWrite),                 // Habilitar escritura por fila1
+    .col_read(colread),              // Habilitar lectura por columna
+    .col_write(colwrite),             // Habilitar escritura por columna
+    .clk(clk),                   // Reloj
+    .data_out1(v_data1),      // Salida de datos (32 bits)
+	 .data_out2(v_data2));       // Salida de datos (32 bits)
 			
 	 assign Fwdata_1[0] = r_data1;
 	 assign Fwdata_1[1] = v_data1;
@@ -74,6 +91,7 @@ module IDPipe (clk, writeAddr, writeData, Instruction, PC, RegWrite, BranchAddr,
         .Out(Temp_Equal));
 		  
 	 assign Equal = (Instruction[19:15] == 5'b11001) ? 5'b1 : Temp_Equal;
+	 assign ID_columna = Imm[1:0];
 	
 
 endmodule

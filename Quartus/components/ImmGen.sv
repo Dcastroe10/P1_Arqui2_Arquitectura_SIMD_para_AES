@@ -13,6 +13,15 @@ module ImmGen (OpCode, InstructionP1, InstructionP2, Imm);
 				5'b11001: begin
                 Imm = {27'b0, InstructionP1};
             end
+				5'b10001: begin
+                Imm = {27'b0, InstructionP1};
+            end
+				5'b10011: begin
+                Imm = {27'b0, InstructionP1};
+            end
+				5'b10010: begin
+                Imm = {27'b0, InstructionP1};
+            end
             default: begin
                 Imm = 32'b0;
             end

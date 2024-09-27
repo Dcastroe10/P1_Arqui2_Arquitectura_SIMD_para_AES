@@ -1,21 +1,21 @@
-module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegWrite,MEM_VRegWrite, MEM_sbox,MEM_rcon,
-                    WB_MemData, WB_ALUResult, WB_rd, WB_MemToReg, WB_RegWrite,WB_VRegWrite,WB_sbox,WB_rcon);
+module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegWrite,MEM_VRegWrite, MEM_sbox,MEM_rcon,MEM_colwrite,MEM_columna,
+                    WB_MemData, WB_ALUResult, WB_rd, WB_MemToReg, WB_RegWrite,WB_VRegWrite,WB_sbox,WB_rcon,WB_colwrite,WB_columna);
 
     input wire clk;
     input wire [31:0] MEM_MemData, MEM_ALUResult,MEM_sbox,MEM_rcon;
     input wire [4:0] MEM_rd;
-    input wire MEM_RegWrite,MEM_VRegWrite;
-	 input wire [1:0] MEM_MemToReg;
+    input wire MEM_RegWrite,MEM_VRegWrite,MEM_colwrite;
+	 input wire [1:0] MEM_MemToReg,MEM_columna;
     output reg [31:0] WB_MemData, WB_ALUResult,WB_sbox,WB_rcon;
     output reg [4:0] WB_rd;
-    output reg WB_RegWrite,WB_VRegWrite;
-	 output reg [1:0] WB_MemToReg;
+    output reg WB_RegWrite,WB_VRegWrite,WB_colwrite;
+	 output reg [1:0] WB_MemToReg,WB_columna;
 
     reg innerClk; // internal clock for emulate the setup & hold time
     reg [31:0] MemData, ALUResult,sbox,rcon;
     reg [4:0] rd;
-    reg RegWrite,VRegWrite;  
-	 reg [1:0] MemToReg; 
+    reg RegWrite,VRegWrite,colwrite;  
+	 reg [1:0] MemToReg,columna; 
 
     always_ff @(posedge innerClk) begin
         MemData <= MEM_MemData;
@@ -26,6 +26,8 @@ module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegW
 		  VRegWrite <= MEM_VRegWrite;
 		  sbox <= MEM_sbox;
 		  rcon <= MEM_rcon;
+		  colwrite <= MEM_colwrite;
+		  columna <= MEM_columna;
     end
 
     always_ff @(posedge clk) begin
@@ -37,6 +39,9 @@ module MEM_WBReg(clk, MEM_MemData, MEM_ALUResult, MEM_rd, MEM_MemToReg, MEM_RegW
 		  WB_VRegWrite <= VRegWrite;
 		  WB_sbox <=sbox;
 		  WB_rcon <= rcon;
+		  WB_colwrite <= colwrite;
+		  WB_columna <= columna;
+		  
     end
 
     initial begin

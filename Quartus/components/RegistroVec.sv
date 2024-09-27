@@ -1,7 +1,8 @@
 module RegistroVec (
     input logic [3:0] fila1,       
 	 input logic [3:0] fila2,
-    input logic [1:0] columna,         // Selector de columna para lectura/escritura
+	 input logic [3:0] writeAddr,
+    input logic [1:0] columnar,columnaw,         // Selector de columna para lectura/escritura
     input logic [31:0] data_in1,        // Entrada de datos (32 bits)
     input logic wr_en,                 // Habilitar escritura por fila1
     input logic col_read,              // Habilitar lectura por columna
@@ -18,35 +19,35 @@ module RegistroVec (
         if (wr_en) begin
             if (col_write) begin
                 // Escritura por columna 
-                case (columna)
+                case (columnaw)
                     2'b11: begin
-                        registro[fila1][7:0] <= data_in1[31:24];
-                        registro[fila1+1][7:0] <= data_in1[23:16];
-                        registro[fila1+2][7:0] <= data_in1[15:8];
-                        registro[fila1+3][7:0] <= data_in1[7:0];
+                        registro[writeAddr][7:0] <= data_in1[31:24];
+                        registro[writeAddr+1][7:0] <= data_in1[23:16];
+                        registro[writeAddr+2][7:0] <= data_in1[15:8];
+                        registro[writeAddr+3][7:0] <= data_in1[7:0];
                     end
                     2'b10: begin
-                        registro[fila1][15:8] <= data_in1[31:24];
-                        registro[fila1+1][15:8] <= data_in1[23:16];
-                        registro[fila1+2][15:8] <= data_in1[15:8];
-                        registro[fila1+3][15:8] <= data_in1[7:0];
+                        registro[writeAddr][15:8] <= data_in1[31:24];
+                        registro[writeAddr+1][15:8] <= data_in1[23:16];
+                        registro[writeAddr+2][15:8] <= data_in1[15:8];
+                        registro[writeAddr+3][15:8] <= data_in1[7:0];
                     end
                     2'b01: begin
-                        registro[fila1][23:16] <= data_in1[31:24];
-                        registro[fila1+1][23:16] <= data_in1[23:16];
-                        registro[fila1+2][23:16] <= data_in1[15:8];
-                        registro[fila1+3][23:16] <= data_in1[7:0];
+                        registro[writeAddr][23:16] <= data_in1[31:24];
+                        registro[writeAddr+1][23:16] <= data_in1[23:16];
+                        registro[writeAddr+2][23:16] <= data_in1[15:8];
+                        registro[writeAddr+3][23:16] <= data_in1[7:0];
                     end
                     2'b00: begin
-                        registro[fila1][31:24] <= data_in1[31:24];
-                        registro[fila1+1][31:24] <= data_in1[23:16];
-                        registro[fila1+2][31:24] <= data_in1[15:8];
-                        registro[fila1+3][31:24] <= data_in1[7:0];
+                        registro[writeAddr][31:24] <= data_in1[31:24];
+                        registro[writeAddr+1][31:24] <= data_in1[23:16];
+                        registro[writeAddr+2][31:24] <= data_in1[15:8];
+                        registro[writeAddr+3][31:24] <= data_in1[7:0];
                     end
                 endcase
             end else begin
                 // Escritura de una fila1 completa
-                registro[fila1] <= data_in1;
+                registro[writeAddr] <= data_in1;
             end
         end
     end
@@ -57,7 +58,7 @@ module RegistroVec (
         data_out2 = 32'b0; // Inicializar
         if (col_read) begin 
             // Lectura por columna (4 valores de 8 bits concatenados)
-            case (columna)
+            case (columnar)
                 2'b11: data_out1 = {registro[fila1][7:0], registro[fila1+1][7:0], registro[fila1+2][7:0], registro[fila1+3][7:0]};
                 2'b10: data_out1 = {registro[fila1][15:8], registro[fila1+1][15:8], registro[fila1+2][15:8], registro[fila1+3][15:8]};
                 2'b01: data_out1 = {registro[fila1][23:16], registro[fila1+1][23:16], registro[fila1+2][23:16], registro[fila1+3][23:16]};

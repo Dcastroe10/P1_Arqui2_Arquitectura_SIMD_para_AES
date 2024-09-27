@@ -73,56 +73,6 @@ set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_Multi_Alu -section_id 
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_rcon -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_rcon
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_rcon -section_id tb_rcon
-set_global_assignment -name LICENSE_FILE rcon.dat
-set_global_assignment -name LICENSE_FILE sbox.dat
-set_global_assignment -name LICENSE_FILE ram.dat
-set_global_assignment -name SYSTEMVERILOG_FILE components/Alus.sv
-set_global_assignment -name LICENSE_FILE datos_aleatorios_20bits.dat
-set_global_assignment -name SYSTEMVERILOG_FILE components/Single_ALU.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Multi_Alu.sv
-set_global_assignment -name LICENSE_FILE memory.dat
-set_global_assignment -name SYSTEMVERILOG_FILE components/Vectorial_Register_File.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Vectorial_Register.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/WBPipe.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/top.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/MEMPipe.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/MEM_WBReg.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/IFPipe.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/IF_IDReg.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/IDPipe.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/ID_EXReg.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/EXPipe.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/EX_MEMReg.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/Datapath.sv
-set_global_assignment -name SYSTEMVERILOG_FILE top/Controller.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Shifter.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Register_File.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Register.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/PCRegister.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Nbit_Equal_Comp.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Mux.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Memory.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/InstMemory.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/ImmGen.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Hot_Bit.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/HazardUnit.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Fordwarding_Unit.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Equal_Comp.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Decoder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Alu.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Adder1bit.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/Adder.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_top.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Vectorial_Register_File.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Vectorial_Register.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/s_box.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/tb_s_box.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Multi_Alu.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/asignar.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_asignar.sv
-set_global_assignment -name SYSTEMVERILOG_FILE gf_mul.sv
-set_global_assignment -name SYSTEMVERILOG_FILE components/rcon.sv
-set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_rcon.sv
 set_global_assignment -name EDA_TEST_BENCH_FILE top/Controller.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/Datapath.sv -section_id tb_top
 set_global_assignment -name EDA_TEST_BENCH_FILE top/EX_MEMReg.sv -section_id tb_top
@@ -173,6 +123,56 @@ set_global_assignment -name EDA_TEST_BENCH_FILE components/rcon.sv -section_id t
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name LICENSE_FILE rcon.dat
+set_global_assignment -name LICENSE_FILE sbox.dat
+set_global_assignment -name LICENSE_FILE ram.dat
+set_global_assignment -name SYSTEMVERILOG_FILE components/Alus.sv
+set_global_assignment -name LICENSE_FILE datos_aleatorios_20bits.dat
+set_global_assignment -name SYSTEMVERILOG_FILE components/Single_ALU.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Multi_Alu.sv
+set_global_assignment -name LICENSE_FILE memory.dat
+set_global_assignment -name SYSTEMVERILOG_FILE components/Vectorial_Register_File.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Vectorial_Register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/WBPipe.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/MEMPipe.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/MEM_WBReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/IFPipe.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/IF_IDReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/IDPipe.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/ID_EXReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/EXPipe.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/EX_MEMReg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/Datapath.sv
+set_global_assignment -name SYSTEMVERILOG_FILE top/Controller.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Shifter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Register_File.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/PCRegister.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Nbit_Equal_Comp.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Memory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/InstMemory.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/ImmGen.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Hot_Bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/HazardUnit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Fordwarding_Unit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Equal_Comp.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Decoder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Adder1bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/Adder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_top.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Vectorial_Register_File.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Vectorial_Register.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/s_box.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/tb_s_box.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_Multi_Alu.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/asignar.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_asignar.sv
+set_global_assignment -name SYSTEMVERILOG_FILE gf_mul.sv
+set_global_assignment -name SYSTEMVERILOG_FILE components/rcon.sv
+set_global_assignment -name SYSTEMVERILOG_FILE tbs/tb_rcon.sv
 set_global_assignment -name SYSTEMVERILOG_FILE components/RegistroVec.sv
 set_global_assignment -name SYSTEMVERILOG_FILE tbs/RegistroVec_tb.sv
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
