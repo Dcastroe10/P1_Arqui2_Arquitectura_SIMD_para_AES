@@ -1,0 +1,16 @@
+module asignar (
+    input wire [31:0] a,
+    output reg [31:0] result_alu
+);
+
+    always_comb begin
+        // Lógica que solo se ejecuta cuando select es '101'
+        case (a[1:0])
+            2'b00: result_alu[7:0] = a[7:0];
+            2'b01: result_alu[15:8] = a[7:0];
+            2'b10: result_alu[23:16] = a[7:0];
+            2'b11: result_alu[31:24] = a[7:0];
+        endcase
+    end
+
+endmodule

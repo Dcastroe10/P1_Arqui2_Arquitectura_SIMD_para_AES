@@ -1,0 +1,50 @@
+module tb_Multi_Alu;
+
+    // Definir señales de prueba
+    reg [31:0] a;
+    reg [31:0] b;
+    reg [1:0] select;
+    wire [31:0] result_alu;
+
+    // Instanciar el DUT (Device Under Test)
+    Multi_Alu dut (
+        .a(a),
+        .b(b),
+        .select(select),
+        .result_alu(result_alu)
+    );
+
+    // Estímulos para el testbench
+    initial begin
+        // Caso 1: Suma (select = 00)
+        a = 32'hAABBCCDD; // Valores arbitrarios de 32 bits
+        b = 32'h11223344;
+        select = 2'b00;  // Seleccionar operación de suma (por ejemplo)
+        #10;
+        $display("Suma: Result = %h", result_alu);
+
+        // Caso 2: AND (select = 01)
+        a = 32'hFFFF0000;
+        b = 32'h00FF00FF;
+        select = 2'b01;  // Seleccionar operación AND
+        #10;
+        $display("AND: Result = %h", result_alu);
+
+        // Caso 3: OR (select = 10)
+        a = 32'h12345678;
+        b = 32'h87654321;
+        select = 2'b10;  // Seleccionar operación OR
+        #10;
+        $display("OR: Result = %h", result_alu);
+
+        // Caso 4: XOR (select = 11)
+        a = 32'h0F0F0F0F;
+        b = 32'hF0F0F0F0;
+        select = 2'b11;  // Seleccionar operación XOR
+        #10;
+        $display("XOR: Result = %h", result_alu);
+
+        // Terminar la simulación
+        $finish;
+    end
+endmodule

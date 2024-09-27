@@ -2,7 +2,7 @@
 
 	input wire [31:0] a;     // Entrada de 128 bits (a)
 	input wire [31:0] b;     // Entrada de 128 bits (b)
-	input wire [1:0] select;  // Selector común para las 4 ALUs
+	input wire [2:0] select;  // Selector común para las 4 ALUs
 	output reg [31:0] result_alu; // Resultado de 128 bits
 	//output reg [3:0] nop_flags;
 	
@@ -16,6 +16,9 @@
 	reg [7:0] b1;
 	reg [7:0] b2;
 	reg [7:0] b3;
+	
+	reg [31:0] result_alu1;
+	reg [31:0] result_alu2;
 	
 
 	// Separar cada cuarto de a y b
@@ -31,42 +34,16 @@
 
 	// Instanciar las 4 ALUs
 	
-	Alu #(8) alu0(.SrcA(a0), .SrcB(b0), .ALUControl(select), .ALUResult(result_alu[7:0]));
-	Alu #(8) alu1(.SrcA(a1), .SrcB(b1), .ALUControl(select), .ALUResult(result_alu[15:8]));
-	Alu #(8) alu2(.SrcA(a2), .SrcB(b2), .ALUControl(select), .ALUResult(result_alu[23:16]));
-	Alu #(8) alu3(.SrcA(a3), .SrcB(b3), .ALUControl(select), .ALUResult(result_alu[31:24]));
+	Alu #(8) alu0(.SrcA(a0), .SrcB(b0), .ALUControl(select[1:0]), .ALUResult(result_alu1[7:0]));
+	Alu #(8) alu1(.SrcA(a1), .SrcB(b1), .ALUControl(select[1:0]), .ALUResult(result_alu1[15:8]));
+	Alu #(8) alu2(.SrcA(a2), .SrcB(b2), .ALUControl(select[1:0]), .ALUResult(result_alu1[23:16]));
+	Alu #(8) alu3(.SrcA(a3), .SrcB(b3), .ALUControl(select[1:0]), .ALUResult(result_alu1[31:24]));
 	
-	/*Single_ALU alu0 (
-		.a(a_alu[0]),
-		.b(b_alu[0]),
-		.select(select),
-		.result(result_alu[0]),
-		.nop_flag(nop_flags[0])
-	);
-
-	Single_ALU alu1 (
-		.a(a_alu[1]),
-		.b(b_alu[1]),
-		.select(select),
-		.result(result_alu[1]),
-		.nop_flag(nop_flags[1])
-	);
-
-	Single_ALU alu2 (
-		.a(a_alu[2]),
-		.b(b_alu[2]),
-		.select(select),
-		.result(result_alu[2]),
-		.nop_flag(nop_flags[2])
-	);
-
-	Single_ALU alu3 (
-		.a(a_alu[3]),
-		.b(b_alu[3]),
-		.select(select),
-		.result(result_alu[3]),
-		.nop_flag(nop_flags[3])
-	);*/
-
-	// Concatenar los resultados de las 4 ALUs
+	gf_mul gf0(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b00),.result(result_alu2[7:0]));
+	gf_mul gf1(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b01),.result(result_alu2[15:8]));
+	gf_mul gf2(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b10),.result(result_alu2[23:16]));
+	gf_mul gf3(.index0(a3), .index1(a2), .index2(a1),.index3(a0),.row(2'b11),.result(result_alu2[31:24]));
+	
+	assign result_alu = (select == 3'b101) ? result_alu2 : result_alu1;
+	
 endmodule

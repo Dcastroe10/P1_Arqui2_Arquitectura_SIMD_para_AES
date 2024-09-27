@@ -1,0 +1,48 @@
+module tb_asignar;
+
+    // Definir señales de prueba
+    reg [31:0] original, dato;
+    reg [1:0] indice;
+    wire [31:0] result_alu;
+
+    // Instanciar el DUT (Device Under Test)
+    asignar dut (
+        .original(original),
+        .dato(dato),
+        .indice(indice),
+        .result_alu(result_alu)
+    );
+
+    // Estímulos para el testbench
+    initial begin
+        // Inicializar 'original' con un valor base
+        original = 32'hFFFFFFFF;
+
+        // Caso 1: indice = 00, dato = 32'h12345678
+        dato = 32'h12345678;
+        indice = 2'b00;
+        #10;
+        $display("Caso 1: indice = %b, dato = %h, result_alu = %h", indice, dato, result_alu);
+
+        // Caso 2: indice = 01, dato = 32'hAABBCCDD
+        dato = 32'hAABBCCDD;
+        indice = 2'b01;
+        #10;
+        $display("Caso 2: indice = %b, dato = %h, result_alu = %h", indice, dato, result_alu);
+
+        // Caso 3: indice = 10, dato = 32'h87654321
+        dato = 32'h87654321;
+        indice = 2'b10;
+        #10;
+        $display("Caso 3: indice = %b, dato = %h, result_alu = %h", indice, dato, result_alu);
+
+        // Caso 4: indice = 11, dato = 32'h0F0F0F0F
+        dato = 32'h0F0F0F0F;
+        indice = 2'b11;
+        #10;
+        $display("Caso 4: indice = %b, dato = %h, result_alu = %h", indice, dato, result_alu);
+
+        // Terminar la simulación
+        $finish;
+    end
+endmodule
